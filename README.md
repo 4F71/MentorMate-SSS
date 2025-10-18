@@ -38,7 +38,7 @@ Terminali açın ve projeyi klonlamak için aşağıdaki komutu çalıştırın:
 
 Bash
 
-git clone https://github.com/KULLANICI-ADINIZ/MentorMate-SSS.git
+git clone https://github.com/4F71/MentorMate-SSS.git
 3. Proje Dizinine Gitme
 Klonladığınız proje klasörünün içine girin:
 
