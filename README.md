@@ -1,4 +1,5 @@
 MentorMate SSS Chatbot 🤖
+
 Bu proje, bir bootcamp'in sıkça sorulan sorularına (SSS) yanıt vermek üzere tasarlanmış, RAG (Retrieval-Augmented Generation) mimarisine sahip bir yapay zeka chatbot uygulamasıdır. MentorMate, Streamlit ile geliştirilmiş interaktif bir web arayüzü üzerinden hizmet verir ve iki farklı kişilikte cevaplar üretebilir:
 
 Bootcamp Uzmanı: Kendi vektör veritabanında (ChromaDB) bulduğu kesin bilgilere dayanarak, kaynak belirterek cevap verir.
