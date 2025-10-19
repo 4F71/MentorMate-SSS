@@ -369,9 +369,9 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 ## 👨‍💻 Geliştirici
 
 **[Adınız Soyadınız]**
-- 🔗 LinkedIn:(https://www.linkedin.com/in/onurtilki)
-- 📧 Email: mehmetonurt@gmail.com
-- 🐙 GitHub: (https://github.com/4F71)
+- 🔗 LinkedIn:  https://www.linkedin.com/in/onurtilki
+- 📧 Email:     mehmetonurt@gmail.com
+- 🐙 GitHub:    https://github.com/4F71
 
 ---
 
