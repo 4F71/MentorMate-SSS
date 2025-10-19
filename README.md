@@ -365,11 +365,6 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 ---
 
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
----
 
 ## 👨‍💻 Geliştirici
 
