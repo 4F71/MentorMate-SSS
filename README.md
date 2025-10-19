@@ -297,8 +297,6 @@ MentorMate: "Bu konuda veri setimde bilgi bulunmuyor."
 
 > *Not: Demo linki Streamlit Cloud üzerinde deploy edildikten sonra güncellenecektir.*
 
-### 📹 Video Demo
-**[▶️ YouTube Demo Videosu](https://www.youtube.com/watch?v=DEMO_ID)**
 
 ### 📸 Ekran Görüntüleri
 
