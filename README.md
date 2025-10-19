@@ -374,9 +374,9 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ## 👨‍💻 Geliştirici
 
 **[Adınız Soyadınız]**
-- 🔗 LinkedIn: [linkedin.com/in/profiliniz](https://www.linkedin.com/in/onurtilki)
+- 🔗 LinkedIn:(https://www.linkedin.com/in/onurtilki)
 - 📧 Email: mehmetonurt@gmail.com
-- 🐙 GitHub: [@kullaniciadi](https://github.com/4F71)
+- 🐙 GitHub: (https://github.com/4F71)
 
 ---
 
