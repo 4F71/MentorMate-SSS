@@ -386,10 +386,13 @@ MentorMate-SSS/
 ├── chroma_db/                     # Vektör veritabanı (gitignore)
 │   └── [ChromaDB dosyaları]
 │
-├── data/                          # Veri seti pipeline
-│   ├── zulip_data.txt            # Ham veri
-│   ├── enriched_dataset.jsonl    # İşlenmiş veri
-│   └── generated_data_google.jsonl # Gemini varyasyonları
+├── data/
+|                                  # Veri seti pipeline
+|   ├── zulip_data.txt                        # Ham veri
+|   ├── sss_dataset_augmented.json            # Ham veri üzerinden zenginleştirilen veri    
+│   ├── sss_dataset_heavily_augmented.json    # Ham veri üzerinden zenginleştirilen veri v2.
+│   ├── enriched_dataset.jsonl                # İşlenmiş veri
+│   └── generated_data_google.jsonl           # Gemini varyasyonları
 │
 ├── notebooks/                     # Jupyter notebooks (geliştirme)
 │   └── [Veri hazırlama notebookları]
@@ -461,3 +464,4 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 ![Powered by AI](https://img.shields.io/badge/Powered%20by-AI-blue?style=for-the-badge)
 
 </div>
+
