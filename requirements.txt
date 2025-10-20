@@ -1,1 +1,63 @@
- 
+# ============================================================================
+# MentorMate Chatbot - Production Requirements
+# ============================================================================
+# Sunum ve deployment için minimal, kararlı bağımlılıklar
+# Kurulum: pip install -r requirements.txt
+
+# --- Web Uygulama Arayüzü ---
+streamlit>=1.28.0
+
+# --- Çevre Değişkenleri ---
+python-dotenv>=1.0.0
+
+# --- LangChain Çekirdek (Sabit Versiyonlar) ---
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.38
+
+# --- LangChain Entegrasyonları ---
+langchain-google-genai>=0.0.11
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.3
+
+# --- Google Gemini API ---
+google-generativeai>=0.3.0
+
+# --- Embedding ve ML ---
+sentence-transformers>=2.2.2
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.3
+safetensors>=0.3.1
+
+# --- Kritik Uyumluluk (DEĞİŞTİRMEYİN!) ---
+numpy==1.26.4
+thinc==8.2.5
+
+# --- Vektör Veritabanı ---
+chromadb>=0.4.22
+pydantic>=2.0.0
+
+# --- HTTP ve Async ---
+requests>=2.31.0
+httpx>=0.24.0
+
+# --- Model Hub ---
+huggingface-hub>=0.19.0
+
+# ============================================================================
+# HIZLI KURULUM
+# ============================================================================
+# 
+# 1. Virtual Environment Oluştur (Önerilir):
+#    python -m venv .venv
+#    .venv\Scripts\activate  (Windows)
+#    source .venv/bin/activate  (Linux/Mac)
+#
+# 2. Bağımlılıkları Yükle:
+#    pip install -r requirements.txt
+#
+# 3. Uygulamayı Çalıştır:
+#    streamlit run app.py
+#
+# ============================================================================

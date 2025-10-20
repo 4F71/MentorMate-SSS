@@ -1,0 +1,443 @@
+[
+  {
+    "category": "Genel",
+    "original_question": "**Bootcamp İş ve Staj İmkanı Sunuyor mu?**",
+    "all_questions": [
+      "**Bootcamp İş ve Staj İmkanı Sunuyor mu?**",
+      "Bootcamp, iş ve staj olanakları sağlıyor mu?",
+      "Bootcamp aracılığıyla iş ve staj fırsatları bulunabilir mi?",
+      "Bootcamp programı kapsamında iş ve staj olanakları mevcut mudur?"
+    ],
+    "answer": "Evet, bootcamp'i başarıyla tamamlayan katılımcılar sponsor şirketin yetenek havuzuna dahil edilecektir.",
+    "keywords": [
+      "bootcamp",
+      "iş imkanı",
+      "staj imkanı",
+      "bootcamp iş imkanı",
+      "bootcamp staj imkanı",
+      "sponsor şirket",
+      "yetenek havuzu",
+      "imkanı",
+      "staj",
+      "sponsor",
+      "şirket",
+      "yetenek",
+      "havuzu"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Bootcamp Sertifikası Alacak mıyım?**",
+    "all_questions": [
+      "**Bootcamp Sertifikası Alacak mıyım?**",
+      "Bootcamp sonunda sertifika edinecek miyim?",
+      "Bootcamp sertifikasına sahip olacak mıyım?",
+      "Bana bootcamp sertifikası verilecek mi?"
+    ],
+    "answer": "Evet, bootcamp sonunda projenizi başarıyla tamamladığınız takdirde sertifika verilecektir.",
+    "keywords": [
+      "Bootcamp Sertifikası",
+      "Bootcamp",
+      "Sertifika",
+      "Bootcamp proje tamamlama",
+      "Başarılı proje",
+      "Bootcamp bitirme",
+      "Sertifika alma",
+      "bootcamp",
+      "sertifikası",
+      "sertifika",
+      "proje",
+      "tamamlama",
+      "başarılı",
+      "bitirme",
+      "alma"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Canlı Yayınlarda Yoklama Alınıyor mu?**",
+    "all_questions": [
+      "**Canlı Yayınlarda Yoklama Alınıyor mu?**",
+      "Canlı yayınlarda katılımcıların listesi tutuluyor mu?",
+      "Canlı yayınlar sırasında katılım kontrolü sağlanıyor mu?",
+      "Canlı yayınlarda katılımcıların mevcudiyeti denetleniyor mu?"
+    ],
+    "answer": "Evet, katılım belgesi alabilmek için canlı yayınların en az %50'sine katılmanız gerekiyor. Canlı yayın sırasında katılım formu paylaşılır ve sadece o an formu dolduranların katılımı doğrulanır.",
+    "keywords": [
+      "canlı yayın yoklama",
+      "katılım belgesi",
+      "canlı yayın katılım",
+      "katılım formu",
+      "yoklama alma",
+      "%50 katılım şartı",
+      "form doldurma",
+      "canlı",
+      "yayın",
+      "yoklama",
+      "katılım",
+      "belgesi",
+      "formu",
+      "alma",
+      "şartı",
+      "form",
+      "doldurma"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Canlı Yayınlar Kaydediliyor mu?**",
+    "all_questions": [
+      "**Canlı Yayınlar Kaydediliyor mu?**",
+      "Canlı yayınlar arşivleniyor mu?",
+      "Canlı yayınlar kayıt altına alınıyor mu?",
+      "Canlı yayınlar daha sonra izlenebiliyor mu?"
+    ],
+    "answer": "Evet, tüm canlı yayınlar kaydedilmekte ve **YouTube** kanalımıza yüklenmektedir. Kaçırmamak için **https://www.youtube.com/@TurkishAIHub** kanalımıza abone olabilir ve bildirimleri açabilirsiniz. :check:",
+    "keywords": [
+      "canlı yayınlar",
+      "canlı yayın kaydı",
+      "YouTube",
+      "YouTube kanalı",
+      "TurkishAIHub",
+      "canlı yayın YouTube",
+      "abone ol",
+      "canlı",
+      "yayınlar",
+      "yayın",
+      "kaydı",
+      "youtube",
+      "kanalı",
+      "turkishaihub",
+      "abone"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Projeyi Grup Olarak mı Yapmalıyız?**",
+    "all_questions": [
+      "**Projeyi Grup Olarak mı Yapmalıyız?**",
+      "Bu projeyi takım halinde mi gerçekleştirmeliyiz?",
+      "Projenin ekip olarak yapılması mı gerekiyor?",
+      "Projeyi ekipçe yürütmemiz mi bekleniyor?"
+    ],
+    "answer": "Projeleri tek başınıza ya da en fazla 2 kişilik gruplar halinde gerçekleştirebilirsiniz. Grup zorunluluğu yoktur.",
+    "keywords": [
+      "grup projesi",
+      "tek kişilik proje",
+      "proje grup zorunluluğu",
+      "2 kişilik proje",
+      "bireysel proje",
+      "proje kaç kişi",
+      "proje yapma",
+      "grup",
+      "projesi",
+      "kişilik",
+      "proje",
+      "zorunluluğu",
+      "bireysel",
+      "kişi",
+      "yapma"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Mentor Toplantılarının Günleri Belli mi?**",
+    "all_questions": [
+      "**Mentor Toplantılarının Günleri Belli mi?**",
+      "Mentor toplantılarının günleri belirlendi mi?",
+      "Mentor toplantılarının tarihleri netleşti mi?",
+      "Mentor toplantılarının günleri hakkında bilgi var mı?"
+    ],
+    "answer": "Mentor toplantıları ve saatleri, Zulip'teki duyurular kanalında ve bootcamp takvimi kanalında paylaşılmaktadır. Katılım zorunlu değildir ama tavsiye edilir.",
+    "keywords": [
+      "mentor toplantıları",
+      "mentor toplantı saatleri",
+      "bootcamp takvimi",
+      "Zulip duyurular",
+      "katılım zorunlu mu",
+      "mentor toplantı duyuru",
+      "bootcamp takvimi kanalı",
+      "mentor",
+      "toplantıları",
+      "toplantı",
+      "saatleri",
+      "bootcamp",
+      "takvimi",
+      "zulip",
+      "duyurular",
+      "katılım",
+      "zorunlu",
+      "duyuru",
+      "kanalı"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Sertifikam Yüklenmedi/Sertifikada İsmim Yanlış, Ne Yapmalıyım?**",
+    "all_questions": [
+      "**Sertifikam Yüklenmedi/Sertifikada İsmim Yanlış, Ne Yapmalıyım?**",
+      "Sertifikam sisteme yüklenmemişse veya üzerindeki ismim hatalıysa, bu durumu düzeltmek için nasıl bir yol izlemeliyim?",
+      "Eğer sertifikam henüz görüntülenemiyorsa ya da sertifika üzerindeki adım yanlış yazılmışsa, hangi adımları atmam gerekir?",
+      "Sertifikamın yüklenmemesi veya sertifikadaki ismimde bir yanlışlık olması durumunda ne yapmalıyım?"
+    ],
+    "answer": "Eğer sertifikanızda bir sorun varsa veya hala yüklenmediyse, **Teknik Sorular** kanalından destek alabilir ve yeni bir talep oluşturabilirsiniz.",
+    "keywords": [
+      "sertifika yüklenmedi",
+      "sertifika isim yanlış",
+      "sertifika sorunu",
+      "Teknik Sorular kanalı",
+      "sertifika destek",
+      "sertifika talep oluşturma",
+      "sertifika hataları",
+      "sertifika",
+      "yüklenmedi",
+      "isim",
+      "yanlış",
+      "sorunu",
+      "teknik",
+      "sorular",
+      "kanalı",
+      "destek",
+      "talep",
+      "oluşturma",
+      "hataları"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Git Kullanmayı Bilmiyorum, Kodumu GitHub'a Nasıl Yüklerim?**",
+    "all_questions": [
+      "**Git Kullanmayı Bilmiyorum, Kodumu GitHub'a Nasıl Yüklerim?**",
+      "Git bilgim olmadığı halde, kodumu GitHub'a nasıl aktarabilirim?",
+      "Git kullanmaya hakim değilim; yazdığım kodu GitHub platformuna nasıl gönderebilirim?",
+      "Git'i hiç kullanmamış biri olarak, mevcut kodumu GitHub'da nasıl yayınlayabilirim?"
+    ],
+    "answer": "Web arayüzü ile yükleme: https://www.youtube.com/watch?v=gJb1XebzNeo videoyu izleyerek kolayca yapabilirsiniz.",
+    "keywords": [
+      "GitHub'a kod yükleme",
+      "Git kullanmadan GitHub",
+      "GitHub web arayüzü",
+      "GitHub başlangıç",
+      "GitHub video anlatım",
+      "GitHub dosya yükleme",
+      "GitHub proje yükleme",
+      "github'a",
+      "yükleme",
+      "kullanmadan",
+      "github",
+      "arayüzü",
+      "başlangıç",
+      "video",
+      "anlatım",
+      "dosya",
+      "proje"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Youtube Canlı Yayınlar Yoklama Sorunları Hakkında",
+    "all_questions": [
+      "Youtube Canlı Yayınlar Yoklama Sorunları Hakkında",
+      "Youtube canlı yayınlarında yoklama alınırken hangi zorluklarla karşılaşılmaktadır?",
+      "Youtube üzerinden gerçekleştirilen canlı yayınlarda katılımcı yoklamasıyla ilgili yaşanan sorunlar nelerdir?",
+      "Youtube canlı yayınlarındaki yoklama alma süreçlerindeki aksaklıklar nasıl giderilebilir?"
+    ],
+    "answer": "Herkese merhaba,\n\nYouTube Canlı Yayınlarında %50 katılım sağlanması için webinar chatinde paylaşılan form aracılığıyla yoklama alınmaktadır. Lütfen formu doldurarak katılımınızı doğrulamayı unutmayın.\n\nTeşekkürler!",
+    "keywords": [
+      "Youtube Canlı Yayın",
+      "Canlı Yayın Yoklama",
+      "Katılım Formu",
+      "Youtube Canlı Yayın Katılım",
+      "Yoklama Sorunları",
+      "Webinar Chat",
+      "Katılım Doğrulama",
+      "youtube",
+      "canlı",
+      "yayın",
+      "yoklama",
+      "katılım",
+      "formu",
+      "sorunları",
+      "webinar",
+      "chat",
+      "doğrulama"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Sertifika'da İsim-Harf Problemi",
+    "all_questions": [
+      "Sertifika'da İsim-Harf Problemi",
+      "Sertifikadaki isimlerde harf uyuşmazlığı",
+      "Belgelerdeki ad yazımında harf yanlışlığı",
+      "Sertifika üzerindeki adlardaki karakter sorunları"
+    ],
+    "answer": "Merhaba,\n\nBazı kullanıcılarımız sertifikalarında isimlerinin baş harfinin \"?\" olarak göründüğünü belirtti. Bu sorunu çözmek için aşağıdaki adımları takip edebilirsiniz:\nÖnerilen Çözüm:\n\nİsim Değişikliği: Sertifika platformu üzerinde isminizi İngilizce karakterlerle yeniden kaydedin. Bu, hatalı karakterlerin düzelmesine yardımcı olabilir.\nTekrar Kontrol: İsim değişikliği yaptıktan sonra sertifikalarınızı tekrar kontrol edin.\nAnlayışınız ve sabrınız için teşekkür ederiz.",
+    "keywords": [
+      "sertifika isim hatası",
+      "sertifika karakter sorunu",
+      "sertifika baş harf hatası",
+      "sertifika isim değişikliği",
+      "ingilizce karakter sertifika",
+      "sertifika isim düzeltme",
+      "sertifika soru işareti",
+      "sertifika",
+      "isim",
+      "hatası",
+      "karakter",
+      "sorunu",
+      "harf",
+      "değişikliği",
+      "ingilizce",
+      "düzeltme",
+      "soru",
+      "işareti"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Şifreniz İle Giriş Yapamıyorum",
+    "all_questions": [
+      "Şifreniz İle Giriş Yapamıyorum",
+      "Şifremle sisteme giriş yapmada sorun yaşıyorum.",
+      "Şifremi girmeme rağmen oturum açamıyorum.",
+      "Belirttiğim şifreyle sisteme erişim sağlayamıyorum."
+    ],
+    "answer": "Eğer giriş yapmayı denediğinizde şifrenizle ilgili sorun yaşıyorsanız \"Şifremi Unuttum\" seçenği ile yeni şifre talep edip, yeni şifrenizle giriş yapabilirsiniz.",
+    "keywords": [
+      "Giriş yapamıyorum",
+      "Şifremi unuttum",
+      "Şifre sorunu",
+      "Yeni şifre",
+      "Şifre talep etme",
+      "Giriş sorunu",
+      "Şifre sıfırlama",
+      "giriş",
+      "yapamıyorum",
+      "şifremi",
+      "unuttum",
+      "şifre",
+      "sorunu",
+      "yeni",
+      "talep",
+      "etme",
+      "sıfırlama"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Sistem, Mailinizi Kabul Etmiyor",
+    "all_questions": [
+      "Sistem, Mailinizi Kabul Etmiyor",
+      "Sistem, e-postanızı almıyor.",
+      "Mailiniz sistem tarafından reddediliyor.",
+      "Uygulama, iletinizi onaylamıyor."
+    ],
+    "answer": "Giriş yapmayı denediğinizde şifrenizle ilgili sorun yaşıyorsanız \"Şifremi Unuttum\" seçeneği ile yeni şifre talep edip, yeni şifrenizle giriş yapabilirsiniz.\n\nAncak, yeni şifre talebinizde mail adresinizi de kabul etmiyorsa; gizli sekme, farklı tarayıcılar, tarayıcının cache'ini silip denemek ya da mobil cihazlarınızdan denemek gibi yöntemler izleyebilirsiniz.\n\nEş zamanlı olarak da, buradaki formu doldurabilirsiniz: #05. Teknik Sorular > Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında @",
+    "keywords": [
+      "Mail kabul etmiyor",
+      "Şifremi unuttum",
+      "Giriş sorunu",
+      "Yeni şifre",
+      "Teknik sorunlar",
+      "Courses.ai platformu",
+      "Tarayıcı cache silme",
+      "mail",
+      "kabul",
+      "etmiyor",
+      "şifremi",
+      "unuttum",
+      "giriş",
+      "sorunu",
+      "yeni",
+      "şifre",
+      "teknik",
+      "sorunlar",
+      "courses.ai",
+      "platformu",
+      "tarayıcı",
+      "cache",
+      "silme"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında",
+    "all_questions": [
+      "Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında",
+      "Courses.ai platformundaki teknik aksaklıklar üzerine.",
+      "Courses.ai platformunda karşılaşılan teknik problemler hakkında.",
+      "Courses.ai sisteminde ortaya çıkan teknik meseleler hakkında."
+    ],
+    "answer": "Herkese merhaba, @everyone\n\nCourses.10million.ai platformunda karşılaşabileceğiniz \"sertifika alamama\", \"ilerleme kaydedilememe\", \"sayfa yüklenmeme\" veya \"görsellerin görünmemesi\" gibi teknik sorunlarla ilgili olarak taleplerinizi daha hızlı bir şekilde teknik ekibimize iletebilmemiz adına bir form oluşturduk. Teknik bir problemle karşılaşan katılımcılarımızın aşağıdaki formu doldurmalarını rica ediyoruz.\nForm Linki: (https://forms.gle/vwgAbR4pusb7DHWG7)\n\nŞimdiden sabrınız ve iş birliğiniz için teşekkür ederiz! :blush:",
+    "keywords": [
+      "Courses.ai Platformu",
+      "Teknik Sorunlar",
+      "Sertifika Alamama",
+      "İlerleme Kaydedilememe",
+      "Courses.10million.ai",
+      "Courses.ai Hata",
+      "Sorun Bildirim Formu",
+      "courses.ai",
+      "platformu",
+      "teknik",
+      "sorunlar",
+      "sertifika",
+      "alamama",
+      "i̇lerleme",
+      "kaydedilememe",
+      "courses.10million.ai",
+      "hata",
+      "sorun",
+      "bildirim",
+      "formu"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Proje Dokümanları ve Kaynaklarını nereden bulabilirim?",
+    "all_questions": [
+      "Proje Dokümanları ve Kaynaklarını nereden bulabilirim?",
+      "Proje Dokümanları ve Kaynaklarına nasıl ulaşabilirim?",
+      "Proje Dokümanları ve Kaynakları nerede yer almaktadır?",
+      "Proje Dokümanları ve Kaynaklarını temin etmek için nereye bakmalıyım?"
+    ],
+    "answer": "Selamlar @everyone\n\nProje PDF'ini ve yayında kendi gösterdiğim kod örneğinin reposunu paylaşıyorum.\n\nChatbot olması kaydıyla, veri seti sınırımız yok. Frontend dili kullanmak zorunda değilsiniz, Python temelli kütüphanelerle de web arayüzü tasarlayabilirsiniz: Streamlit ve Gradio kütüphaneleri güzel iki örnek.\n\nPython dili zorunlu. İsterseniz *.py, isterseniz *.ipynb olarak hazırlayabilirsiniz. No-code, agent vb. kullanmıyoruz. Proje PDF'inde örnek bir proje daha var.\n\nİkinci eğitim yayınından sonra, proje teslim tarihi yaklaşırken Proje Teslim Formu paylaşacağız.\n\nYayında gösterdiğim repo: https://github.com/gokerguner/gaih-genai-bootcamp (Opsiyonel ödevler kısmını kontrol edin)\n\nProje PDF'i:https://akbankgenerativeaigirisbootcamp.zulipchat.com/user_uploads/70582/RrDnc3ZCm0liXYu-pyn_xbGG/GAIH-GenAI-Bootcamp-Proje-Dosyas.pdf\nEn önemli ricamız, soru yöneltmeden önce lütfen yayını izleyin ve proje pdf'ini inceleyin. Eğer sorularınızın cevabı buralarda değilse yanıtlamaktan memnun oluruz,linkler : \n\nhttps://github.com/gokerguner/gaih-genai-bootcamp\nhttps://streamlit.io\nhttps://www.gradio.app\nProje ile ilgili diğer kaynaklar da burda: #06. Yararlı Kaynaklar > Proje Dokümanları ve Kaynakları",
+    "keywords": [
+      "Proje Dokümanları",
+      "GenAI Bootcamp",
+      "Python Projesi",
+      "Streamlit Gradio",
+      "GitHub Repo",
+      "Chatbot Projesi",
+      "Proje Teslim Formu",
+      "proje",
+      "dokümanları",
+      "genai",
+      "bootcamp",
+      "python",
+      "projesi",
+      "streamlit",
+      "gradio",
+      "github",
+      "repo",
+      "chatbot",
+      "teslim",
+      "formu"
+    ],
+    "difficulty_level": "beginner"
+  }
+]

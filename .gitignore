@@ -1,0 +1,60 @@
+# ============================================================================
+# MentorMate Chatbot - .gitignore
+# ============================================================================
+
+# --- GÜVENLİK: API Anahtarları ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# --- VECTOR DATABASE VE OUTPUT (Çok Büyük) ---
+chroma_db/
+output/
+*.sqlite3
+*.db
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# --- JUPYTER NOTEBOOK ---
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# --- İŞLETİM SİSTEMİ ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- LOGS VE TEMP ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# --- KULLANILMAYAN KLASÖRLER ---
+static/
+
+# ============================================================================
+# ✅ GitHub'a GİDECEK dosyalar:
+# data/raw/, data/processed/, core/, screenshots/, README.md, requirements.txt
+# ============================================================================
