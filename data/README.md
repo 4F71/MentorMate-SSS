@@ -1,17 +1,20 @@
 # Proje Veri Setleri Açıklaması
+ 
 
-Bu klasör, MentorMate SSS Botu projesinin veri hazırlama sürecinde kullanılan kaynak dosyaları içermektedir. Veri akışı aşağıdaki gibidir:
+Merhaba! Bu repo, bir bootcamp'in sıkça sorulan sorularını yanıtlamak üzere geliştirdiğim RAG (Retrieval-Augmented Generation) tabanlı **MentorMate Chatbot** projesinin kodlarını ve hikayesini içeriyor. Bu proje, basit bir SSS botu fikrinden çok daha fazlası oldu; karşılaştığım her zorluk, beni daha profesyonel ve daha dayanıklı çözümler üretmeye iten bir öğrenme serüvenine dönüştü.
 
-### 1. `zulip_data.txt`
+Bu `README` dosyası, sadece projenin ne yaptığını değil, aynı zamanda bu noktaya nasıl geldiğimi, hangi engelleri aştığımı ve bu süreçte neler öğrendiğimi anlatıyor.
 
-- **Amaç:** Ham Veri Kaynağı
-- **Açıklama:** Bu dosya, projenin başlangıç noktasını oluşturan, Zulip platformundan alınmış en ham ve işlenmemiş Soru-Cevap metinlerini içerir. Bootcamp başlangıcında en sık sorulan sorular bulunur. Formatı basit bir metin dosyasıdır.
+## Projenin Son Hali: MentorMate Nasıl Çalışıyor?
 
-### 2. `sss_dataset_augmented.json` ve `sss_dataset_heavily_augmented.json` (v2 dahil)
+MentorMate, bir dizi modern yapay zeka aracını ve tekniğini bir araya getiren sağlam bir mimariye sahip:
 
-- **Amaç:** Yapılandırılmış ve Zenginleştirilmiş Veri
-- **Açıklama:** Ham `zulip_data.txt` dosyasındaki veriler işlenerek bu JSON dosyaları oluşturulmuştur. Bu dosyalarda, her bir ana cevap için birden çok soru varyasyonu (`all_questions`) gruplandırılmıştır. `heavily` ve `v2` sürümleri, daha fazla soru varyasyonu eklenmiş daha gelişmiş versiyonları temsil eder.
+* **Beyin (LLM):** Kullanıcıyla sohbet eden ve cevapları üreten zeki beyin olarak Google'ın `gemini-2.0-flash` modelini kullanıyorum.
+* **Hafıza (Vektör Veritabanı):** Tüm SSS verilerini, yerel olarak çalışan `ChromaDB` veritabanında saklıyorum.
+* **Kütüphaneci (Embedding Modeli):** Metinleri yapay zekanın anlayacağı vektörlere dönüştürmek için Hugging Face'in `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` modelini **yerel olarak** çalıştırıyorum. Bu sayede API limitlerine takılmadan, tamamen bağımsız bir altyapı kurdum.
+* **Akıllı Arama (Retrieval):** Kullanıcının sorduğu bir soruyu birden fazla farklı açıdan ele alıp veritabanında arama yapan `MultiQueryRetriever + MMR (Maximum Marginal Relevance)` tekniğini kullanarak cevap isabet oranını en üst seviyeye çıkardım.
+* **Yüz (Arayüz):** Tüm bu güçlü altyapıyı, `app.py` dosyası içinde çalışan interaktif ve kullanıcı dostu bir `Streamlit` web uygulaması ile sunuyorum.
 
-### Not: Nihai Çalışma Dosyası
+## Veri İşleme Akışı: Ham Veriden Zekaya
 
-Bu klasördeki dosyalar, projenin ham ve ara veri kaynaklarıdır. Botun veritabanını oluşturmak için kullanılan nihai, temizlenmiş ve düzleştirilmiş `.jsonl` formatındaki dosya, projenin `output` klasöründe yer almaktadır.
+Chatbot'un "beyni" ne kadar zekiyse, "hafızası" da o kadar kaliteli olmalıdır. Bu projenin temelini oluşturan veri, aşağıdaki adımlardan geçerek son halini aldı:
