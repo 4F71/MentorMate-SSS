@@ -923,3 +923,4 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 
 
+
