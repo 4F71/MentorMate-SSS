@@ -460,8 +460,8 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 **⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
 
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-![Powered by AI](https://img.shields.io/badge/Powered%20by-AI-blue?style=for-the-badge)
+
 
 </div>
+
 
