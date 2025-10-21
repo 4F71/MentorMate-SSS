@@ -258,12 +258,13 @@ pip install -r requirements.txt
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
 
-5. Uygulamayı Çalıştırın
+### 5. Uygulamayı Çalıştırın
 bashstreamlit run app.py
 
 Not: İlk çalıştırmada uygulama otomatik olarak veritabanını oluşturacaktır. Bu işlem ~2-3 dakika sürebilir. Veritabanı bir kez oluşturulduktan sonra tekrar kurulum gerekmez.
 
-Manuel Kurulum (Opsiyonel):
+### Manuel Kurulum (Opsiyonel):
+
 bash# Sadece veritabanını yeniden oluşturmak isterseniz:
 python setup_database.py
 Tarayıcınızda http://localhost:8501 açılacaktır.
@@ -914,6 +915,7 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 
 </div>
+
 
 
 
