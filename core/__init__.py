@@ -15,7 +15,7 @@ Kullanım:
     from core.rag_pipeline import validate_answer, preprocess_query
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.3"
 __author__ = "Onur Tilki"
 
 # Modül içinden otomatik import (opsiyonel)
