@@ -1,5 +1,5 @@
 # ============================================================================
-# CORE/RAG_PIPELINE.PY: RAG Sistemi Temel Bileşenleri
+# CORE/RAG_PIPELINE.PY: RAG Sistemi - Hibrit Mod (Güvenli LLM Fallback)
 # ============================================================================
 
 import os
@@ -13,7 +13,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 
 # ============================================================================
-# 1. PROMPT ŞABLONLARı
+# 1. PROMPT ŞABLONLARI
 # ============================================================================
 
 EXPERT_PROMPT_TEMPLATE = """Sen MentorMate adlı bootcamp uzman asistanısın. SADECE verilen dokümanları kullanarak cevap veriyorsun.
@@ -34,6 +34,19 @@ SORU: {question}
 
 CEVAP:"""
 
+# YENİ: Genel sorular için LLM promptu
+GENERAL_LLM_PROMPT = """Sen MentorMate adlı yardımcı bir asistansın. Bu soru bootcamp veritabanında yok ama genel bir soru.
+
+KRİTİK KURALLAR:
+1. Sadece GENEL BİLGİ gerektiren sorulara cevap ver
+2. Bootcamp-spesifik bilgi ASLA uydurma (tarih, süre, kurallar vb.)
+3. Kısa, doğal ve yardımcı ol
+4. Emin değilsen "Bu konuda emin değilim" de
+
+SORU: {question}
+
+CEVAP:"""
+
 CONDENSE_QUESTION_PROMPT = PromptTemplate.from_template("""
 Sohbet geçmişi ve yeni soruyu kullanarak, ANAHTAR KELİMELERİ İÇEREN tek başına anlaşılır bir arama sorgusu oluştur.
 
@@ -43,11 +56,6 @@ Sohbet geçmişi ve yeni soruyu kullanarak, ANAHTAR KELİMELERİ İÇEREN tek ba
 3. Anahtar kelimeleri MUTLAKA koru (örn: "katılım oranı", "sertifika", "bootcamp süresi")
 4. Eş anlamlı kelimeleri ekle (örn: "iştirak" = "katılım", "web semineri" = "canlı yayın")
 5. Tüm kelimeler küçük harfle yazılmalı
-
-Örnekler:
-- "Peki katılım oranı var mı" → "katılım oranı yüzde bootcamp canlı yayın webinar"
-- "Bootcamp süresi ne kadar" → "bootcamp süresi gün hafta eğitim"
-- "Bootcamp Sertifikası" → "bootcamp sertifika certificate belge diploma"
 
 SOHBET GEÇMİŞİ:
 {chat_history}
@@ -59,11 +67,52 @@ ANAHTAR KELİME ZENGİN SORGU (küçük harfle):""")
 
 
 # ============================================================================
-# 2. RAGPipeline SINIFI
+# 2. YENİ: GÜVENLİ SORU KATEGORİZASYONU
+# ============================================================================
+
+def categorize_question(question: str) -> str:
+    """
+    Soruyu kategorize eder ve güvenli LLM kullanımına karar verir
+    
+    Returns:
+        "bootcamp_specific": Bootcamp hakkında - HALÜSİNASYON RİSKİ!
+        "general_safe": Genel bilgi - LLM kullanılabilir
+        "greeting": Selamlama - Direkt cevap
+    """
+    q_lower = question.lower()
+    
+    # 1. Selamlaşmalar
+    greetings = ["merhaba", "selam", "hey", "hi", "günaydın", "iyi günler"]
+    if any(g in q_lower for g in greetings):
+        return "greeting"
+    
+    # 2. Bootcamp-spesifik anahtar kelimeler (HALÜSİNASYON RİSKİ!)
+    bootcamp_keywords = [
+        "bootcamp", "sertifika", "katılım", "mentor", "proje", "grup",
+        "canlı yayın", "webinar", "akbank", "eğitim süresi", "tarih",
+        "toplantı", "zulip", "github repo", "teslim", "döküman"
+    ]
+    if any(kw in q_lower for kw in bootcamp_keywords):
+        return "bootcamp_specific"
+    
+    # 3. Genel güvenli sorular
+    general_safe_patterns = [
+        "nedir", "ne demek", "nasıl", "kimdir", "matematik", "hesapla",
+        "mentormate nedir", "sen kimsin", "ne yaparsın", "+", "-", "*", "/"
+    ]
+    if any(pattern in q_lower for pattern in general_safe_patterns):
+        return "general_safe"
+    
+    # Varsayılan: Bootcamp-spesifik kabul et (güvenli taraf)
+    return "bootcamp_specific"
+
+
+# ============================================================================
+# 3. RAGPipeline SINIFI (HİBRİT MOD)
 # ============================================================================
 
 class RAGPipeline:
-    """RAG sistemi için merkezi yönetim sınıfı"""
+    """RAG sistemi için merkezi yönetim sınıfı - Hibrit Mod"""
     
     def __init__(
         self,
@@ -74,17 +123,6 @@ class RAGPipeline:
         llm_model: str = "gemini-2.0-flash",
         temperature: float = 0.01
     ):
-        """
-        RAG Pipeline'ı başlatır
-        
-        Args:
-            google_api_key: Google Gemini API anahtarı
-            db_path: ChromaDB veritabanı yolu
-            collection_name: ChromaDB koleksiyon adı
-            embedding_model: HuggingFace embedding model adı
-            llm_model: Gemini model adı
-            temperature: LLM sıcaklık parametresi
-        """
         self.google_api_key = google_api_key
         self.db_path = db_path
         self.collection_name = collection_name
@@ -94,13 +132,13 @@ class RAGPipeline:
         
         # Bileşenler
         self.llm = None
+        self.llm_general = None  # YENİ: Genel sorular için ayrı LLM
         self.embeddings = None
         self.vectordb = None
         self.retriever = None
         self.memory = None
         self.chain = None
         
-        # Pipeline'ı otomatik başlat
         self._initialize()
     
     def _initialize(self):
@@ -113,11 +151,19 @@ class RAGPipeline:
         self._setup_chain()
     
     def _setup_llm(self):
-        """LLM modelini yükler"""
+        """LLM modellerini yükler"""
+        # RAG için katı LLM
         self.llm = ChatGoogleGenerativeAI(
             model=self.llm_model_name,
             google_api_key=self.google_api_key,
             temperature=self.temperature
+        )
+        
+        # YENİ: Genel sorular için biraz daha esnek LLM
+        self.llm_general = ChatGoogleGenerativeAI(
+            model=self.llm_model_name,
+            google_api_key=self.google_api_key,
+            temperature=0.3  # Biraz daha yaratıcı ama kontrollü
         )
     
     def _setup_embeddings(self):
@@ -181,19 +227,96 @@ class RAGPipeline:
     
     def query(self, question: str) -> Dict:
         """
-        Kullanıcı sorusunu işler ve cevap döner
-        
-        Args:
-            question: Kullanıcı sorusu
-            
-        Returns:
-            Dict: 'answer' ve 'source_documents' içeren sonuç
+        YENİ: Hibrit sorgu işleme
+        1. Önce RAG'e sor
+        2. Cevap güvensizse ve soru güvenli kategorideyse → LLM'e sor
+        3. Bootcamp-spesifik sorularda → "Bilgi yok" de
         """
         try:
+            # 1. AŞAMA: Soru kategorisini belirle
+            category = categorize_question(question)
+            
+            # Selamlama için direkt cevap
+            if category == "greeting":
+                return {
+                    "answer": "Merhaba! Ben MentorMate. Size nasıl yardımcı olabilirim? 😊",
+                    "source_documents": []
+                }
+            
+            # 2. AŞAMA: Önce RAG'e sor
             result = self.chain.invoke({"question": question})
+            answer = result.get("answer", "").strip()
+            source_docs = result.get("source_documents", [])
+            
+            # 3. AŞAMA: Cevap güvenilir mi?
+            is_confident = self._check_confidence(answer, source_docs)
+            
+            # 4. AŞAMA: Güvensizse ve güvenli kategorideyse → LLM Fallback
+            if not is_confident and category == "general_safe":
+                return self._general_llm_fallback(question)
+            
+            # 5. AŞAMA: Bootcamp-spesifik + güvensiz → "Bilgi yok"
+            if not is_confident and category == "bootcamp_specific":
+                return {
+                    "answer": "⚠️ Bu konuda veri setimde güvenilir bilgi bulunmuyor.",
+                    "source_documents": source_docs
+                }
+            
+            # Normal RAG cevabı
             return result
+            
         except Exception as e:
             raise Exception(f"Query işleme hatası: {str(e)}")
+    
+    def _check_confidence(self, answer: str, source_docs: List) -> bool:
+        """
+        Cevabın güvenilir olup olmadığını kontrol eder
+        """
+        answer_lower = answer.lower()
+        
+        # "Bilgi yok" cevapları güvensiz
+        no_info_keywords = ["veri setimde", "bilgi bulunmuyor", "bilgim yok"]
+        if any(kw in answer_lower for kw in no_info_keywords):
+            return False
+        
+        # Kaynak yoksa güvensiz
+        if not source_docs:
+            return False
+        
+        # Kelime örtüşme oranı düşükse güvensiz
+        answer_words = set([w for w in answer_lower.split() if len(w) > 3])
+        if not answer_words:
+            return True
+        
+        source_text = " ".join([doc.page_content.lower() for doc in source_docs])
+        matched_words = [w for w in answer_words if w in source_text]
+        overlap_ratio = len(matched_words) / len(answer_words)
+        
+        return overlap_ratio >= 0.20
+    
+    def _general_llm_fallback(self, question: str) -> Dict:
+        """
+        YENİ: Genel sorular için güvenli LLM fallback
+        """
+        prompt = PromptTemplate(
+            template=GENERAL_LLM_PROMPT,
+            input_variables=["question"]
+        )
+        
+        try:
+            formatted_prompt = prompt.format(question=question)
+            response = self.llm_general.invoke(formatted_prompt)
+            answer = response.content.strip()
+            
+            return {
+                "answer": answer,
+                "source_documents": []
+            }
+        except Exception as e:
+            return {
+                "answer": "⚠️ Bu konuda size yardımcı olamıyorum.",
+                "source_documents": []
+            }
     
     def clear_memory(self):
         """Sohbet geçmişini temizler"""
@@ -206,36 +329,28 @@ class RAGPipeline:
             "embedding_model": self.embedding_model_name,
             "temperature": self.temperature,
             "collection_name": self.collection_name,
-            "db_path": self.db_path
+            "db_path": self.db_path,
+            "mode": "Hibrit (RAG + Güvenli LLM Fallback)"
         }
 
 
 # ============================================================================
-# 3. YARDIMCI FONKSİYONLAR
+# 4. YARDIMCI FONKSİYONLAR
 # ============================================================================
 
 def validate_answer(answer: str, source_docs: List) -> str:
     """
-    Halüsinasyon kontrolü yapar
-    
-    Args:
-        answer: LLM'den gelen cevap
-        source_docs: Kaynak dokümanlar
-        
-    Returns:
-        str: Valide edilmiş cevap
+    Halüsinasyon kontrolü yapar (mevcut sistem ile uyumlu)
     """
     if not source_docs:
         return "⚠️ Bu konuda veri setimde güvenilir bilgi bulunmuyor."
     
     answer_lower = answer.lower()
     
-    # "Bilgi yok" ifadeleri kontrolü
     no_info_keywords = ["veri setimde", "bilgi bulunmuyor", "bilgim yok"]
     if any(keyword in answer_lower for keyword in no_info_keywords):
         return answer
     
-    # Kelime örtüşme kontrolü
     answer_words = set([w for w in answer_lower.split() if len(w) > 3])
     source_text = " ".join([doc.page_content.lower() for doc in source_docs])
     
@@ -254,16 +369,9 @@ def validate_answer(answer: str, source_docs: List) -> str:
 def preprocess_query(query: str) -> str:
     """
     Sorguya anahtar kelime zenginleştirmesi ve normalizasyon yapar
-    
-    Args:
-        query: Ham kullanıcı sorusu
-        
-    Returns:
-        str: İşlenmiş ve zenginleştirilmiş sorgu
     """
     query_normalized = query.lower()
     
-    # Türkçe karakter normalizasyonu
     turkish_chars = {
         'İ': 'i', 'I': 'ı', 'Ğ': 'ğ', 'Ü': 'ü',
         'Ş': 'ş', 'Ö': 'ö', 'Ç': 'ç'
@@ -271,7 +379,6 @@ def preprocess_query(query: str) -> str:
     for upper, lower in turkish_chars.items():
         query_normalized = query_normalized.replace(upper, lower)
     
-    # Anahtar kelime haritası
     keyword_map = {
         "katılım": ["iştirak", "katılım oranı", "yoklama", "attendance", "devam"],
         "canlı yayın": ["webinar", "web semineri", "youtube", "yayın", "live", "stream"],
@@ -289,7 +396,6 @@ def preprocess_query(query: str) -> str:
         "toplantı": ["meeting", "buluşma", "görüşme", "saat", "zaman"]
     }
     
-    # Kısa sorgular için özel işleme
     words = query_normalized.split()
     if len(words) <= 2:
         for word in words:
@@ -298,7 +404,6 @@ def preprocess_query(query: str) -> str:
                     query_normalized += " " + keyword + " " + " ".join(synonyms)
                     break
     
-    # Anahtar kelime zenginleştirme
     enriched_query = query_normalized
     for keyword, synonyms in keyword_map.items():
         if keyword in query_normalized:
