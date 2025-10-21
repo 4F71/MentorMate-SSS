@@ -1,10 +1,11 @@
 # ============================================================================
-# APP.PY: MentorMate Chatbot - Streamlit Web Arayüzü
+# APP.PY: MentorMate Chatbot - Streamlit Web Arayüzü (Otomatik Setup)
 # ============================================================================
 
 import streamlit as st
 import os
 import asyncio
+import subprocess
 from dotenv import load_dotenv
 
 # Core modüllerden import
@@ -33,15 +34,55 @@ EXPERT_MODE = {
 }
 
 # ============================================================================
-# 2. BILEŞEN YÜKLEME (Cached)
+# 2. OTOMATİK VERİTABANI KURULUMU
+# ============================================================================
+
+def check_and_setup_database():
+    """Veritabanı yoksa otomatik olarak oluşturur"""
+    if not os.path.exists(DB_PATH):
+        with st.spinner("🔧 İlk kurulum yapılıyor... (Bu işlem ~2-3 dakika sürebilir)"):
+            try:
+                st.info("📦 Veritabanı bulunamadı, oluşturuluyor...")
+                
+                # setup_database.py'yi çalıştır
+                result = subprocess.run(
+                    ["python", "setup_database.py"],
+                    capture_output=True,
+                    text=True,
+                    timeout=300  # 5 dakika timeout
+                )
+                
+                if result.returncode == 0:
+                    st.success("✅ Veritabanı başarıyla oluşturuldu!")
+                    st.balloons()
+                else:
+                    st.error(f"❌ Veritabanı oluşturulamadı: {result.stderr}")
+                    st.stop()
+                    
+            except subprocess.TimeoutExpired:
+                st.error("⏰ Veritabanı oluşturma süresi doldu. Lütfen tekrar deneyin.")
+                st.stop()
+            except Exception as e:
+                st.error(f"❌ Beklenmeyen hata: {str(e)}")
+                st.stop()
+
+# ============================================================================
+# 3. BİLEŞEN YÜKLEME (Cached)
 # ============================================================================
 
 @st.cache_resource
 def load_rag_pipeline():
     """RAG Pipeline'ı yükler ve cache'ler"""
     if not GOOGLE_API_KEY:
-        st.error("⚠️ Google API anahtarı bulunamadı!")
+        st.error("⚠️ Google API anahtarı bulunamadı! Lütfen Streamlit Cloud'da 'Secrets' kısmına ekleyin.")
+        st.code("""
+# Streamlit Cloud Secrets formatı (.streamlit/secrets.toml):
+GOOGLE_API_KEY = "your_api_key_here"
+        """)
         st.stop()
+    
+    # Veritabanı kontrolü ve kurulum
+    check_and_setup_database()
     
     try:
         pipeline = RAGPipeline(
@@ -58,7 +99,7 @@ def load_rag_pipeline():
         st.stop()
 
 # ============================================================================
-# 3. STREAMLIT ARAYÜZÜ
+# 4. STREAMLIT ARAYÜZÜ
 # ============================================================================
 
 def main():
@@ -132,10 +173,15 @@ def main():
         # Veritabanı bilgisi
         st.markdown("### 🗄️ Veritabanı")
         stats = pipeline.get_stats()
-        st.caption(f"📍 `{os.path.basename(stats['db_path'])}/`")
+        st.caption(f"📁 `{os.path.basename(stats['db_path'])}/`")
         st.caption(f"🤖 `{stats['embedding_model'].split('/')[-1][:35]}`")
         st.caption(f"🔥 Model: `{stats['llm_model']}`")
         st.caption(f"🌡️ Temperature: `{stats['temperature']}`")
+        
+        # GitHub linki
+        st.markdown("---")
+        st.markdown("### 🔗 Proje")
+        st.markdown("[📦 GitHub Repo](https://github.com/4F71/MentorMate-SSS)")
     
     # ============================================================================
     # ANA İÇERİK
