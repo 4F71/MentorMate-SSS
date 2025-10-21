@@ -8,11 +8,14 @@
 !.env.example
 .streamlit/secrets.toml
 
-# --- VECTOR DATABASE - ÅžU SATIRLARI YORUM SATIRI YAPTIK ---
-# chroma_db/  # Artık GitHub'a pushlanacak
+# --- VECTOR DATABASE (Runtime'da oluşturulacak) ---
+chroma_db/
+
+# --- OUTPUT VE TEMP ---
 output/
 *.sqlite3
-# *.db  # ChromaDB için gerekli
+*.tmp
+*.temp
 
 # --- PYTHON ---
 __pycache__/
@@ -44,17 +47,26 @@ notebooks/.ipynb_checkpoints/
 Thumbs.db
 Desktop.ini
 
-# --- LOGS VE TEMP ---
+# --- LOGS ---
 *.log
-*.tmp
-*.temp
 *.bak
 *.backup
 
-# --- KULLANILMAYAN KLASÖRLER ---
+# --- KULLANILMAYAN ---
 static/
 
 # ============================================================================
 # ✅ GitHub'a GİDECEK dosyalar:
-# data/, core/, chroma_db/, screenshots/, README.md, requirements.txt, app.py
+# - data/ (ham ve işlenmiş veri)
+# - core/ (RAG pipeline kodu)
+# - app.py (ana uygulama)
+# - setup_database.py (lokal kullanıcılar için)
+# - requirements.txt
+# - packages.txt (Streamlit Cloud için)
+# - README.md
+# - screenshots/
+# 
+# ❌ GitHub'a GİTMEYECEK:
+# - chroma_db/ (runtime'da oluşturulacak)
+# - .env (API anahtarları)
 # ============================================================================
