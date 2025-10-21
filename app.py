@@ -1,5 +1,5 @@
 # ============================================================================
-# APP.PY: MentorMate Chatbot - Streamlit (Runtime DB Setup)
+# APP.PY: MentorMate Chatbot - Streamlit (Cache Fix)
 # ============================================================================
 
 import streamlit as st
@@ -33,10 +33,10 @@ DATA_FILES = [
 ]
 
 EXPERT_MODE = {
-    "name": "Uzman Mod",
+    "name": "Hibrit Mod",  # Değişti
     "icon": "🎯",
     "color": "#1f77b4",
-    "desc": "Sadece veritabanındaki güvenilir bilgileri verir."
+    "desc": "Veritabanı + Genel sorular için güvenli LLM desteği."  # Değişti
 }
 
 # ============================================================================
@@ -114,12 +114,12 @@ def check_and_setup_database():
                 st.stop()
 
 # ============================================================================
-# 3. BİLEŞEN YÜKLEME
+# 3. BİLEŞEN YÜKLEME (CACHE FIX!)
 # ============================================================================
 
-@st.cache_resource
-def load_rag_pipeline():
-    """RAG Pipeline'ı yükler"""
+@st.cache_resource(show_spinner=False, hash_funcs={type: id})  # hash_funcs eklendi
+def load_rag_pipeline(_force_reload=False):  # _force_reload parametresi
+    """RAG Pipeline'ı yükler - Cache fix ile"""
     if not GOOGLE_API_KEY:
         st.error("⚠️ Google API anahtarı bulunamadı! Lütfen Secrets'a ekleyin.")
         st.stop()
@@ -141,7 +141,7 @@ def load_rag_pipeline():
         st.stop()
 
 # ============================================================================
-# 4. STREAMLIT ARAYÜZÜ (Değişiklik yok)
+# 4. STREAMLIT ARAYÜZÜ
 # ============================================================================
 
 def main():
@@ -154,7 +154,11 @@ def main():
     
     st.markdown("""<style>.stButton > button {width: 100%;}</style>""", unsafe_allow_html=True)
     
-    pipeline = load_rag_pipeline()
+    # YENİ: Session state ile reload kontrolü
+    if "force_reload" not in st.session_state:
+        st.session_state.force_reload = False
+    
+    pipeline = load_rag_pipeline(_force_reload=st.session_state.force_reload)
     
     if "messages" not in st.session_state:
         st.session_state.messages = [{
@@ -196,18 +200,25 @@ def main():
             pipeline.clear_memory()
             st.rerun()
         
+        # YENİ: Cache temizleme butonu
+        if st.button("🔄 Sistemi Yenile", use_container_width=True, help="Kod güncellemelerini yükler"):
+            st.session_state.force_reload = True
+            st.cache_resource.clear()
+            st.rerun()
+        
         st.markdown("---")
         st.markdown("### 🗄️ Veritabanı")
         stats = pipeline.get_stats()
         st.caption(f"📁 `{os.path.basename(stats['db_path'])}/`")
         st.caption(f"🤖 `{stats['embedding_model'].split('/')[-1][:35]}`")
+        st.caption(f"⚙️ Mod: {stats.get('mode', 'Uzman')}")  # YENİ
         
         st.markdown("---")
         st.markdown("[📦 GitHub Repo](https://github.com/4F71/MentorMate-SSS)")
     
     # ANA İÇERİK
     st.title(f"{EXPERT_MODE['icon']} MentorMate Chatbot")
-    st.caption("Bootcamp hakkında **sadece güvenilir bilgiler** veriyorum.")
+    st.caption("Bootcamp hakkında **güvenilir bilgiler** ve **genel sorulara** yanıt veriyorum.")
     
     for msg in st.session_state.messages:
         with st.chat_message(msg["role"]):
@@ -218,34 +229,25 @@ def main():
         with st.chat_message("user"):
             st.markdown(user_input)
         
-        greetings = ["merhaba", "selam", "hey", "hi", "günaydın"]
-        if user_input.lower().strip() in greetings:
-            response = f"Merhaba! Ben MentorMate. Size nasıl yardımcı olabilirim? 😊"
-            with st.chat_message("assistant"):
-                st.markdown(response)
-            st.session_state.messages.append({"role": "assistant", "content": response})
-        else:
-            with st.chat_message("assistant"):
-                with st.spinner(f"{EXPERT_MODE['icon']} Düşünüyorum..."):
-                    try:
-                        enriched_query = preprocess_query(user_input)
-                        result = pipeline.query(enriched_query)
-                        raw_answer = result.get("answer", "Bir hata oluştu.").strip()
-                        source_docs = result.get("source_documents", [])
-                        final_answer = validate_answer(raw_answer, source_docs)
-                        
-                        st.markdown(final_answer)
-                        st.session_state.messages.append({
-                            "role": "assistant", 
-                            "content": final_answer
-                        })
-                    except Exception as e:
-                        error_msg = f"❌ Bir hata oluştu: {str(e)}"
-                        st.error(error_msg)
-                        st.session_state.messages.append({
-                            "role": "assistant", 
-                            "content": error_msg
-                        })
+        with st.chat_message("assistant"):
+            with st.spinner(f"{EXPERT_MODE['icon']} Düşünüyorum..."):
+                try:
+                    enriched_query = preprocess_query(user_input)
+                    result = pipeline.query(enriched_query)
+                    final_answer = result.get("answer", "Bir hata oluştu.").strip()
+                    
+                    st.markdown(final_answer)
+                    st.session_state.messages.append({
+                        "role": "assistant", 
+                        "content": final_answer
+                    })
+                except Exception as e:
+                    error_msg = f"❌ Bir hata oluştu: {str(e)}"
+                    st.error(error_msg)
+                    st.session_state.messages.append({
+                        "role": "assistant", 
+                        "content": error_msg
+                    })
 
 if __name__ == "__main__":
     main()
