@@ -471,71 +471,9 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 **⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
 
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-![Powered by AI](https://img.shields.io/badge/Powered%20by-AI-blue?style=for-the-badge)
 
 </div>
 ---
-
-## 🔧 Geliştirme Detayları
-
-### Prompt Engineering
-```python
-KRİTİK KURALLAR:
-1. SADECE verilen dokümanlardan cevap ver
-2. Bilmediğinde: "Bu konuda veri setimde bilgi bulunmuyor"
-3. Kendi bilgini ASLA kullanma
-4. Tutarlı ol (aynı soruya aynı cevap)
-```
-
-### Embedding Model Seçimi
-**Neden `paraphrase-multilingual-MiniLM-L12-v2`?**
-- ✅ 384 boyut (hafif ve hızlı)
-- ✅ Türkçe desteği
-- ✅ ChromaDB uyumluluğu
-- ✅ Düşük kaynak tüketimi
-
-### Retriever Stratejisi
-```python
-search_type="mmr"           # Maximum Marginal Relevance
-k=5                         # En iyi 5 doküman
-fetch_k=25                  # 25 adaydan seç
-lambda_mult=0.6             # %60 relevance + %40 diversity
-```
-
----
-
-## 🤝 Katkıda Bulunma
-
-Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz için issue açabilirsiniz.
-
----
-
-## 👨‍💻 Geliştirici
-
-**Onur Tilki**
-- 🔗 LinkedIn: https://www.linkedin.com/in/onurtilki
-- 📧 Email: mehmetonurt@gmail.com
-- 🐙 GitHub: https://github.com/4F71
-
----
-
-## 🙏 Teşekkürler
-
-- **Akbank & Global AI Hub**: Bootcamp organizasyonu
-- **Turkish AI Hub**: Mentor desteği ve veri kaynağı
-- **LangChain & Google**: Açık kaynak araçlar
-
----
-
-<div align="center">
-
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
-
-
-
-</div>
-
 
 
 
