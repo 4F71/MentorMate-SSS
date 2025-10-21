@@ -266,7 +266,9 @@ Not: İlk çalıştırmada uygulama otomatik olarak veritabanını oluşturacakt
 ### Manuel Kurulum (Opsiyonel):
 
 bash# Sadece veritabanını yeniden oluşturmak isterseniz:
+
 python setup_database.py
+
 Tarayıcınızda http://localhost:8501 açılacaktır.
 
 Tarayıcınızda `http://localhost:8501` açılacaktır.
@@ -915,6 +917,7 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 
 </div>
+
 
 
 
