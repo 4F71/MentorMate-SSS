@@ -1,9 +1,4 @@
 
----
-
-## 📁 Proje Yapısı
-
-```
 # 🤖 MentorMate - Akbank GenAI Bootcamp SSS Chatbot
 
 ![MentorMate Banner](https://img.shields.io/badge/Bootcamp-Akbank%20GenAI-blue?style=for-the-badge)
@@ -540,6 +535,7 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 
 </div>
+
 
 
 
