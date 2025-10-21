@@ -8,11 +8,11 @@
 !.env.example
 .streamlit/secrets.toml
 
-# --- VECTOR DATABASE VE OUTPUT (Çok Büyük) ---
-chroma_db/
+# --- VECTOR DATABASE - ÅžU SATIRLARI YORUM SATIRI YAPTIK ---
+# chroma_db/  # Artık GitHub'a pushlanacak
 output/
 *.sqlite3
-*.db
+# *.db  # ChromaDB için gerekli
 
 # --- PYTHON ---
 __pycache__/
@@ -56,5 +56,5 @@ static/
 
 # ============================================================================
 # ✅ GitHub'a GİDECEK dosyalar:
-# data/raw/, data/processed/, core/, screenshots/, README.md, requirements.txt
+# data/, core/, chroma_db/, screenshots/, README.md, requirements.txt, app.py
 # ============================================================================
