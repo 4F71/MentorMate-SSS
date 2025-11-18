@@ -469,7 +469,7 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 <div align="center">
 
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
+**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!!**
 
 
 </div>
