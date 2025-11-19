@@ -55,18 +55,3 @@ Desktop.ini
 # --- KULLANILMAYAN ---
 static/
 
-# ============================================================================
-# ✅ GitHub'a GİDECEK dosyalar:
-# - data/ (ham ve işlenmiş veri)
-# - core/ (RAG pipeline kodu)
-# - app.py (ana uygulama)
-# - setup_database.py (lokal kullanıcılar için)
-# - requirements.txt
-# - packages.txt (Streamlit Cloud için)
-# - README.md
-# - screenshots/
-# 
-# ❌ GitHub'a GİTMEYECEK:
-# - chroma_db/ (runtime'da oluşturulacak)
-# - .env (API anahtarları)
-# ============================================================================
