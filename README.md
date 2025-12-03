@@ -10,6 +10,7 @@
 
 MentorMate, Akbank GenAI Bootcamp katılımcılarının sıkça sorduğu sorulara anında, doğru ve güvenilir cevaplar veren RAG (Retrieval Augmented Generation) tabanlı bir chatbot'tur.
 
+
 ---
 
 ## 📋 İçindekiler
