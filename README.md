@@ -1,5 +1,5 @@
 
-# 🤖 MentorMate - Akbank GenAI Bootcamp SSS Chatbot
+#  MentorMate - Akbank GenAI Bootcamp SSS Chatbot
 
 ![MentorMate Banner](https://img.shields.io/badge/Bootcamp-Akbank%20GenAI-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.9+-green?style=for-the-badge&logo=python)
@@ -13,7 +13,7 @@ MentorMate, Akbank GenAI Bootcamp katılımcılarının sıkça sorduğu sorular
 
 ---
 
-## 📋 İçindekiler
+##  İçindekiler
 
 - [Projenin Amacı](#-projenin-amacı)
 - [Veri Seti Hakkında](#-veri-seti-hakkında)
@@ -26,32 +26,32 @@ MentorMate, Akbank GenAI Bootcamp katılımcılarının sıkça sorduğu sorular
 
 ---
 
-## 🎯 Projenin Amacı
+##  Projenin Amacı
 
 Bootcamp sürecinde katılımcılar:
-- ❓ Sertifika koşulları
-- 📅 Mentor toplantı saatleri  
-- 💻 GitHub kullanımı
-- 👥 Grup proje kuralları
-- 📺 Canlı yayın arşivleri
+-  Sertifika koşulları
+-  Mentor toplantı saatleri  
+-  GitHub kullanımı
+-  Grup proje kuralları
+-  Canlı yayın arşivleri
 
 gibi tekrar eden sorularla karşılaşıyor. MentorMate bu soruları 7/24 anında ve tutarlı şekilde yanıtlayarak:
 
-✅ **Mentor yükünü azaltır**  
-✅ **Katılımcı deneyimini iyileştirir**  
-✅ **Bilgi erişimini hızlandırır**
+**Mentor yükünü azaltır**  
+**Katılımcı deneyimini iyileştirir**  
+**Bilgi erişimini hızlandırır**
 
 ---
 
-## 📊 Veri Seti Hakkında
+##  Veri Seti Hakkında
 
-### 📁 Veri Kaynağı
+###  Veri Kaynağı
 - **Kaynak**: Bootcamp Zulip kanalındaki gerçek katılımcı soruları
 - **Format**: JSON/JSONL (satır-satır JSON)
 - **Dil**: Türkçe
 - **Toplam**: 3,232 soru-cevap çifti
 
-### 📂 data/ Klasör İçeriği
+###  data/ Klasör İçeriği
 
 | Dosya | Boyut | Açıklama |
 |-------|-------|----------|
@@ -59,10 +59,10 @@ gibi tekrar eden sorularla karşılaşıyor. MentorMate bu soruları 7/24 anınd
 | `sss_dataset_augmented.json` | 17 KB | İlk temizleme |
 | `sss_dataset_heavily_augmented.json` | 144 KB | Keyword zenginleştirme |
 | `sss_dataset_heavily_augmented_v2.json` | 96 KB | Optimizasyon v2 |
-| **`enriched_dataset.jsonl`** | 1.4 MB | ✅ Final işlenmiş veri |
-| **`generated_data_google.jsonl`** | 819 KB | ✅ Gemini varyasyonları |
+| **`enriched_dataset.jsonl`** | 1.4 MB |  Final işlenmiş veri |
+| **`generated_data_google.jsonl`** | 819 KB |  Gemini varyasyonları |
 
-### 🔄 Veri Hazırlama Pipeline'ı
+###  Veri Hazırlama Pipeline'ı
 
 ```
 zulip_data.txt (Ham Veri)
@@ -102,7 +102,7 @@ ChromaDB (Vector Database)
    - Sentence Transformers ile embedding
    - ChromaDB'de depolandı
 
-### 📝 Örnek Veri Yapısı
+###  Örnek Veri Yapısı
 
 ```json
 {
@@ -112,15 +112,15 @@ ChromaDB (Vector Database)
 }
 ```
 
-### 🎨 Veri Kalite Kontrolleri
+###  Veri Kalite Kontrolleri
 
-✅ **Tekrar Eden Sorular**: Temizlendi  
-✅ **Türkçe Karakter Sorunları**: Düzeltildi  
-✅ **Büyük/Küçük Harf Tutarsızlığı**: Normalize edildi  
-✅ **Eksik Cevaplar**: Tamamlandı  
-✅ **Keyword Mapping**: 40+ eş anlamlı eklendi
+ **Tekrar Eden Sorular**: Temizlendi  
+ **Türkçe Karakter Sorunları**: Düzeltildi  
+ **Büyük/Küçük Harf Tutarsızlığı**: Normalize edildi  
+ **Eksik Cevaplar**: Tamamlandı  
+ **Keyword Mapping**: 40+ eş anlamlı eklendi
 
-### 🔢 İstatistikler
+###  İstatistikler
 
 | Metrik | Değer |
 |--------|-------|
@@ -132,26 +132,26 @@ ChromaDB (Vector Database)
 
 ---
 
-## 🛠️ Kullanılan Yöntemler
+##  Kullanılan Yöntemler
 
-### 1️⃣ RAG (Retrieval Augmented Generation)
+###  RAG (Retrieval Augmented Generation)
 - **Retriever**: MultiQueryRetriever + MMR (Maximum Marginal Relevance)
 - **Generator**: Google Gemini 2.0 Flash
 - **Vector Store**: ChromaDB
 
-### 2️⃣ Embedding Stratejisi
+###  Embedding Stratejisi
 ```python
 Model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 Dimension: 384
 Language: Multilingual (Türkçe optimize)
 ```
 
-### 3️⃣ Akıllı Soru İşleme
+###  Akıllı Soru İşleme
 - **Keyword Enrichment**: 40+ eş anlamlı kelime haritası
 - **Query Preprocessing**: Türkçe karakter normalizasyonu
 - **Short Query Handling**: 1-2 kelimelik sorular özel işleme
 
-### 4️⃣ Halüsinasyon Önleme
+###  Halüsinasyon Önleme
 ```python
 ✓ Kaynak doküman kontrolü
 ✓ %20 örtüşme threshold'u
@@ -160,9 +160,9 @@ Language: Multilingual (Türkçe optimize)
 
 ---
 
-## 🗃️ Çözüm Mimarisi
+##  Çözüm Mimarisi
 
-### 📄 Sistem Akış Diyagramı
+###  Sistem Akış Diyagramı
 
 ```
 ┌─────────────┐
@@ -204,7 +204,7 @@ Language: Multilingual (Türkçe optimize)
 └──────────────────┘
 ```
 
-### 🧩 Teknoloji Stack
+###  Teknoloji Stack
 
 | Katman | Teknoloji | Amaç |
 |--------|-----------|------|
@@ -215,7 +215,7 @@ Language: Multilingual (Türkçe optimize)
 | **Framework** | LangChain | RAG pipeline |
 | **Memory** | ConversationBufferWindowMemory | Sohbet geçmişi |
 
-### 🎯 Uzman Mod Özellikleri
+###  Uzman Mod Özellikleri
 
 ```python
 ✓ Sadece veritabanındaki bilgileri verir
@@ -226,7 +226,7 @@ Language: Multilingual (Türkçe optimize)
 
 ---
 
-## 🚀 Kurulum Kılavuzu
+##  Kurulum Kılavuzu
 
 ### Gereksinimler
 - Python 3.9+
@@ -277,21 +277,21 @@ Tarayıcınızda `http://localhost:8501` açılacaktır.
 
 ---
 
-## 📖 Kullanım Kılavuzu
+##  Kullanım Kılavuzu
 
-### 🎮 Arayüz Özellikleri
+###  Arayüz Özellikleri
 
-#### 1️⃣ **Ana Sohbet Ekranı**
+####  **Ana Sohbet Ekranı**
 - Soru yazın ve Enter'a basın
 - Gerçek zamanlı cevap alın
 - Sohbet geçmişi otomatik saklanır
 
-#### 2️⃣ **Sidebar İstatistikleri**
-- 📊 Toplam soru/cevap sayısı
-- 🗑️ Sohbeti temizleme butonu
-- 🗄️ Veritabanı bilgileri
+####  **Sidebar İstatistikleri**
+-  Toplam soru/cevap sayısı
+-  Sohbeti temizleme butonu
+-  Veritabanı bilgileri
 
-#### 3️⃣ **Örnek Sorular**
+#### **Örnek Sorular**
 
 | Kategori | Örnek Soru | Beklenen Sonuç |
 |----------|-----------|----------------|
@@ -301,7 +301,7 @@ Tarayıcınızda `http://localhost:8501` açılacaktır.
 | Mentor | "Mentor toplantıları ne zaman?" | Zulip duyuru bilgisi |
 | GitHub | "Git bilmiyorum, nasıl yüklerim?" | Video rehber linki |
 
-### 🎯 Kullanım Senaryoları
+###  Kullanım Senaryoları
 
 **Senaryo 1: Hızlı Bilgi**
 ```
@@ -325,9 +325,9 @@ MentorMate: "Bu konuda veri setimde bilgi bulunmuyor."
 
 ---
 
-## 📈 Elde Edilen Sonuçlar
+## Elde Edilen Sonuçlar
 
-### ✅ Teknik Başarılar
+### Teknik Başarılar
 
 | Metrik | Değer | Açıklama |
 |--------|-------|----------|
@@ -337,37 +337,37 @@ MentorMate: "Bu konuda veri setimde bilgi bulunmuyor."
 | **Büyük/Küçük Harf** | %100 | Case-insensitive arama |
 | **Keyword Matching** | %90+ | Eş anlamlı kelime tanıma |
 
-### 🎯 Kullanıcı Deneyimi
+###  Kullanıcı Deneyimi
 
-✅ **Tutarlılık**: Aynı soruya her zaman aynı cevap  
-✅ **Hız**: Anında yanıt (<3 saniye)  
-✅ **Güvenilirlik**: Sadece doğrulanmış bilgiler  
-✅ **Şeffaflık**: Bilmediğinde açıkça söyler
+**Tutarlılık**: Aynı soruya her zaman aynı cevap  
+**Hız**: Anında yanıt (<3 saniye)  
+**Güvenilirlik**: Sadece doğrulanmış bilgiler  
+**Şeffaflık**: Bilmediğinde açıkça söyler
 
-### 🔍 Test Sonuçları
+###  Test Sonuçları
 
 **Başarılı Test Vakaları:**
-- ✅ Sertifika soruları (10/10)
-- ✅ Grup/proje soruları (8/8)
-- ✅ Mentor toplantı soruları (5/5)
-- ✅ GitHub/teknik sorular (7/7)
-- ✅ Canlı yayın soruları (6/6)
+-  Sertifika soruları (10/10)
+- Grup/proje soruları (8/8)
+- Mentor toplantı soruları (5/5)
+- GitHub/teknik sorular (7/7)
+- Canlı yayın soruları (6/6)
 
 **Zorluk Çekilen Durumlar:**
-- ⚠️ Çok genel sorular ("Bootcamp nedir?")
-- ⚠️ Veritabanı dışı konular (beklenen davranış)
+-  Çok genel sorular ("Bootcamp nedir?")
+-  Veritabanı dışı konular (beklenen davranış)
 
 ---
 
-## 🌐 Canlı Demo
+##  Canlı Demo
 
-### 🔗 Web Arayüzü
-**[🚀 MentorMate'i Deneyin!](https://mentormate-sss.streamlit.app)**
+###  Web Arayüzü
+**[ MentorMate'i Deneyin!](https://mentormate-sss.streamlit.app)**
 
 > *Not: Demo linki Streamlit Cloud üzerinde deploy edildikten sonra güncellenecektir.*
 
 
-### 📸 Ekran Görüntüleri
+###  Ekran Görüntüleri
 
 #### Ana Ekran
 ![Ana Ekran](screenshots/main_screen.png)
@@ -380,7 +380,7 @@ MentorMate: "Bu konuda veri setimde bilgi bulunmuyor."
 
 ---
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 MentorMate-SSS/
@@ -430,10 +430,10 @@ KRİTİK KURALLAR:
 
 ### Embedding Model Seçimi
 **Neden `paraphrase-multilingual-MiniLM-L12-v2`?**
-- ✅ 384 boyut (hafif ve hızlı)
-- ✅ Türkçe desteği
-- ✅ ChromaDB uyumluluğu
-- ✅ Düşük kaynak tüketimi
+- 384 boyut (hafif ve hızlı)
+-  Türkçe desteği
+- ChromaDB uyumluluğu
+-  Düşük kaynak tüketimi
 
 ### Retriever Stratejisi
 ```python
@@ -445,22 +445,22 @@ lambda_mult=0.6             # %60 relevance + %40 diversity
 
 ---
 
-## 🤝 Katkıda Bulunma
+##  Katkıda Bulunma
 
 Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz için issue açabilirsiniz.
 
 ---
 
-## 👨‍💻 Geliştirici
+##  Geliştirici
 
 **Onur Tilki**
-- 🔗 LinkedIn: https://www.linkedin.com/in/onurtilki
-- 📧 Email: mehmetonurt@gmail.com
-- 🐙 GitHub: https://github.com/4F71
+- LinkedIn: https://www.linkedin.com/in/onurtilki
+-  Email: mehmetonurt@gmail.com
+-  GitHub: https://github.com/4F71
 
 ---
 
-## 🙏 Teşekkürler
+##  Teşekkürler
 
 - **Akbank & Global AI Hub**: Bootcamp organizasyonu
 - **Turkish AI Hub**: Mentor desteği ve veri kaynağı
@@ -470,10 +470,11 @@ Bu proje Akbank GenAI Bootcamp kapsamında geliştirilmiştir. Önerileriniz iç
 
 <div align="center">
 
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
+** Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
 
 
 </div>
+
 
 
 
