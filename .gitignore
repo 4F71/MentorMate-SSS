@@ -1,0 +1,57 @@
+# ============================================================================
+# MentorMate Chatbot - .gitignore
+# ============================================================================
+
+# --- GÜVENLİK: API Anahtarları ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# --- VECTOR DATABASE (Runtime'da oluşturulacak) ---
+chroma_db/
+
+# --- OUTPUT VE TEMP ---
+output/
+*.sqlite3
+*.tmp
+*.temp
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# --- JUPYTER NOTEBOOK ---
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# --- İŞLETİM SİSTEMİ ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- LOGS ---
+*.log
+*.bak
+*.backup
+
+# --- KULLANILMAYAN ---
+static/
+
