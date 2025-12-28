@@ -1,0 +1,2279 @@
+[
+  {
+    "category": "Genel",
+    "original_question": "**Bootcamp İş ve Staj İmkanı Sunuyor mu?**",
+    "all_questions": [
+      {
+        "question": "**Bootcamp İş ve Staj İmkanı Sunuyor mu?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp, iş ve staj olanakları sağlıyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp aracılığıyla iş ve staj fırsatları bulunabilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp programı kapsamında iş ve staj olanakları mevcut mudur?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i bitirenler sponsor şirketin yetenek havuzuna girecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Başarılı bootcamp mezunları sponsor şirketin havuzuna mı dahil edilecek?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla geçenler ne olacak?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sponsor şirket, bootcamp'i tamamlayanları yetenek havuzuna alacak mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılımcılar bootcamp sonrası sponsor şirketin yetenek havuzunda yer alacak mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayan herkes yetenek havuzuna dahil edilecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna kimler dahil edilecek?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanlar nereye dahil edilecek?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yetenek havuzuna dahil edilmek için bootcamp'i tamamlamak şart mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzu, bootcamp mezunlarına açık mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlamak yetenek havuzuna girmeyi sağlar mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Başarılı bootcamp katılımcıları sponsor şirketin yetenek havuzuna katılır mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp sonunda sponsor şirketin yetenek havuzuna alım olacak mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sponsor şirket, başarılı bootcamp katılımcılarını havuzuna dahil edecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i tamamlayanlar sponsor şirketin yetenek havuzuna otomatik mi giriyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yetenek havuzuna dahil edilme, bootcamp'in bir çıktısı mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Başarılı bootcamp bitiricileri için sponsor şirketin bir planı var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp bitiminde yetenek havuzuna dahil edilme söz konusu mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzu için bootcamp bitirme koşulu var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i bitirenler sponsor şirketin insan kaynakları havuzuna mı girecek?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılımcılar başarılı olursa sponsor şirketin yetenek havuzuna dahil edilecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanlar için sponsor şirkette bir yer var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sponsor şirket, bootcamp'ten başarılı olanları yetenek havuzuna ekleyecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp sonrası yetenek havuzuna giriş var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Kimler sponsor şirketin yetenek havuzuna dahil edilecek?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanların sponsor şirket bünyesinde değerlendirilmesi hangi aşamayla başlar?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme süreci, bootcamp'i başarıyla tamamlayanlar için nasıl bir aşamayı temsil eder?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlamak, sponsor şirketin yetenek havuzuna katılımcı alımı için temel bir kriter midir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme, bootcamp programının başarılı tamamlanmasının doğrudan bir sonucu mudur?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayan katılımcıların sponsor şirketin yetenek havuzuna dahil edilmesi ne zaman gerçekleşecek?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilmek için bootcamp'i başarıyla bitirmenin ötesinde başka bir değerlendirme süreci olacak mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayan her katılımcı, sponsor şirketin yetenek havuzuna otomatik olarak mı dahil edilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme, bootcamp'i başarıyla bitirenler için bir ayrıcalık mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanların sponsor şirketin yetenek havuzuna dahil edilmesi, bu programın katılımcılara sunduğu ana avantajlardan biri midir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilmek için bootcamp'i başarıyla tamamlamanın önemi nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanların sponsor şirketin yetenek havuzuna dahil edilmesi, sponsor şirketin bir taahhüdü müdür?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilmek, bootcamp'i başarıyla tamamlayanlara verilen bir ödül müdür?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanlar için sponsor şirketin yetenek havuzuna dahil edilme garantisi var mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme, bootcamp'i başarıyla tamamlamanın getirdiği temel bir avantaj mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanların sponsor şirketin yetenek havuzuna dahil edilmesi, programın hedeflerinden biri midir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme süreci, bootcamp'i başarıyla tamamlayanlara yönelik resmi bir uygulama mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme kriteri, bootcamp'i başarıyla tamamlamanın ötesinde ek gereklilikler içeriyor mu?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayan katılımcıların sponsor şirketin yetenek havuzuna dahil edilmesi, şirketin kurumsal bir taahhüdü müdür?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Eğer bir katılımcı bootcamp'i başarıyla tamamlarsa, sponsor şirketin yetenek havuzuna dahil edilmeme gibi bir durum söz konusu olabilir mi?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme süreci, bootcamp'i başarıyla tamamlayan her katılımcı için ayrım gözetmeksizin mi uygulanacaktır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanların sponsor şirketin yetenek havuzuna dahil edilmesi, bu programın katılımcılara yönelik temel bir güvencesi midir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme, bootcamp'i başarıyla tamamlamanın nihai ve kesin bir sonucu olarak mı belirtilmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayan katılımcıların sponsor şirketin yetenek havuzuna dahil edilme, programın genel hedeflerini ne ölçüde destekler?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sponsor şirketin yetenek havuzuna dahil edilme, bootcamp'i başarıyla tamamlayanlar için öngörülen tek sonrası aşama mıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanların sponsor şirketin yetenek havuzuna dahil edilmesi, sponsor şirketin yetenek kazanım stratejisinin önemli bir parçası mıdır?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Evet, bootcamp'i başarıyla tamamlayan katılımcılar sponsor şirketin yetenek havuzuna dahil edilecektir.",
+    "keywords": [
+      "bootcamp",
+      "iş imkanı",
+      "staj imkanı",
+      "bootcamp iş imkanı",
+      "bootcamp staj imkanı",
+      "sponsor şirket",
+      "yetenek havuzu",
+      "imkanı",
+      "staj",
+      "sponsor",
+      "şirket",
+      "yetenek",
+      "havuzu"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Bootcamp Sertifikası Alacak mıyım?**",
+    "all_questions": [
+      {
+        "question": "**Bootcamp Sertifikası Alacak mıyım?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp sonunda sertifika edinecek miyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp sertifikasına sahip olacak mıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bana bootcamp sertifikası verilecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i bitirince sertifika alacak mıyız?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika verilmesi için bir şart var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Başarılı proje tamamlandığında sertifika verilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp bittiğinde sertifika alabilir miyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika almak için ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje bitirme sertifika alma koşulu mudur?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'ten sonra sertifika verilecek mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikayı ne zaman alacağım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp katılımcılarına sertifika sağlanacak mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projeyi bitirince sertifika verilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika almak için projeyi başarıyla bitirmek şart mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp tamamlandığında bir sertifika sunulacak mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika almanın bir ön koşulu var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp sonunda sertifika veriliyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika almak için projemizi tamamlamamız gerekiyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Başarılı proje bitirme durumunda sertifika alacak mıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'i başarıyla tamamlayanlara sertifika verilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika almak için son projemizi bitirmeli miyiz?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp katılımcıları sertifika almaya hak kazanacak mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika hangi koşullarda verilir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'in sonunda sertifika alacak mıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projeyi başarıyla bitirenler sertifika alabilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika edinmek için neyin tamamlanması gerekir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp tamamlandığında sertifika alma garantisi var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika almak için projenin başarısı önemli mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp'in son projesini başarıyla bitirmek sertifika almayı garanti eder mi?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika edinimi, bootcamp'in bitimindeki proje başarısına mı bağlıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika almak için bootcamp sonunda projenin başarıyla tamamlanması şart mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp sertifikasına hak kazanmak için ana kriter nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'in sonundaki proje tamamlanma durumu sertifika edinimini nasıl etkiler?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika yalnızca bootcamp'in final projesinin başarıyla tamamlanması durumunda mı verilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'in tamamlanması ve projenin başarıyla bitirilmesi sertifika için yeterli midir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp sertifikasına sahip olmak için projenizi başarılı bir şekilde mi bitirmelisiniz?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika verilişi, bootcamp'in sonunda gerçekleştirilen projenin başarıyla sonuçlanmasına mı bağlıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'ten sonra sertifika almak için projenin başarı şartı var mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Projenin başarılı bir şekilde bitirilmesi, sertifika alma koşulu olarak mı belirlenmiştir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp sertifikası almak için projenizi başarıyla tamamlamanız gerektiğini teyit eder misiniz?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikanın verilebilmesi için bootcamp sonunda projenin başarıyla tamamlanması zorunlu bir adım mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp sertifikası, bootcamp bitimindeki proje başarısına göre mi verilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp sertifikası alabilme kriterleri arasında proje başarısı yer alıyor mu?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika almayı garantilemek için bootcamp projesini başarıyla tamamlamak gerekiyor mu?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp sertifikasyon süreci, final projesinin başarıyla sonuçlandırılmasına mı endekslenmiştir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifika verilmesi, bootcamp'in nihai projesinin başarıyla tamamlanmasıyla eş zamanlı mıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifika verilebilmesi için bootcamp sonunda projenin başarıyla tamamlanması bir zorunluluk arz etmekte midir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp sertifikasyonu, katılımcının final projesini başarıyla bitirmesine mi koşullandırılmıştır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp'in final projesini başarıyla tamamlayanlar için sertifika teminatı mevcut mudur?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp sonunda projenin başarılı tamamlanması, sertifika almanın öncelikli ve belirleyici koşulu mudur?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp sertifikasına sahip olmanın kesinliği, projenin başarıyla tamamlanmasına mı dayanmaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp sonunda alınacak sertifikanın anahtar belirleyicisi nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp'ten sonra sertifika edinimi için başarıyla tamamlanmış bir proje gerekliliği mevcut mudur?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Evet, bootcamp sonunda projenizi başarıyla tamamladığınız takdirde sertifika verilecektir.",
+    "keywords": [
+      "Bootcamp Sertifikası",
+      "Bootcamp",
+      "Sertifika",
+      "Bootcamp proje tamamlama",
+      "Başarılı proje",
+      "Bootcamp bitirme",
+      "Sertifika alma",
+      "bootcamp",
+      "sertifikası",
+      "sertifika",
+      "proje",
+      "tamamlama",
+      "başarılı",
+      "bitirme",
+      "alma"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Canlı Yayınlarda Yoklama Alınıyor mu?**",
+    "all_questions": [
+      {
+        "question": "**Canlı Yayınlarda Yoklama Alınıyor mu?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlarda katılımcıların listesi tutuluyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar sırasında katılım kontrolü sağlanıyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlarda katılımcıların mevcudiyeti denetleniyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesi alabilmek için canlı yayınlara ne kadar katılmak gereklidir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınların yüzde kaçına katılmak katılım belgesi için zorunludur?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesi almak için minimum katılım oranı nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar sırasında katılım formu ne zaman paylaşılır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım formunu doldurma zamanı katılımın doğrulanması açısından önemli midir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılımım nasıl doğrulanır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayın sırasında formu doldurmayanların katılımı geçerli sayılır mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesi almak için canlı yayınlara katılım yeterli midir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "En az yüzde 50 katılım şartı ne için gereklidir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesini hak etmek için katılımcıların hangi adımı izlemesi gerekir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlara katılım belgesi için aranılan temel koşul nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım formunu kaçırmamak için canlı yayınlarda neye dikkat edilmelidir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sadece canlı yayın sırasında doldurulan katılım formları mı geçerli kabul edilir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım formunun temel amacı nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlara %50'nin altında katılım gösterenler katılım belgesi alabilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılımın doğrulanması süreci nasıl işlemektedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesi almak için bir form doldurmak zorunlu mudur?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlara katılımın alt limiti nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesi alabilmek için canlı yayınlara katılım oranı nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayın sırasında paylaşılan formun doldurulması katılımı nasıl etkiler?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılımın doğrulanması için formun tam olarak ne zaman doldurulması gerekir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlara katılım belgesi almak için hangi yüzde oranı esas alınır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım formunu doldurarak neyi onaylamış oluruz?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınların en az %50'sine katılmak ne anlama gelir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Katılım belgesi almanın anahtarı nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlara %50 katılım şartını yerine getirmeyen bir katılımcının katılım belgesi alma durumu nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım formunun canlı yayın esnasında doldurulması neden bu kadar kritik bir öneme sahiptir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınları sonradan izlemek, katılım belgesi alabilmek için yeterli bir yöntem midir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım belgesi alabilmek için hem %50 katılım hem de form doldurma şartı eş zamanlı mı aranmaktadır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınlara katılıp formu doldurmayan birinin katılımı sistemde nasıl değerlendirilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım yüzdesi hesaplamasında hangi yayınlar dikkate alınır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım formunu yanlışlıkla veya geç doldurursam katılımım geçerli sayılır mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım belgesi sürecinde canlı yayınlara katılımın rolü tam olarak nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım formunun doldurulmaması durumunda katılımın doğrulanması mümkün müdür?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım belgesi için %50 katılım oranı mutlak ve tek bir şart mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım formunun paylaşım anını kaçırırsam, o yayındaki katılımım geçersiz mi sayılacak?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım belgesi için canlı yayınlara katılım şartı dışında başka bir doğrulama yöntemi var mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınlara katılımın %50'sinin sağlanması ile katılım belgesi alımı arasındaki doğrudan bağlantı nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınların %50'sine katılım şartı, her bir yayına belirli bir minimum katılım süresi içeriyor mu?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Katılım belgesi için canlı yayınlara katılımın minimum süresi var mı, yoksa sadece form doldurmaya mı bağlıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınlara katılım belgesi almak için %50'nin üzerindeki katılım oranı ek bir avantaj sağlar mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayın sırasında katılım formunu teknik bir sorun nedeniyle dolduramayan bir katılımcının, sonradan başka bir yolla katılımını doğrulama imkanı var mıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılım belgesi için gereken %50 katılım oranı, tüm canlı yayınların toplam süresinin %50'sine mi, yoksa yayın sayısının mı %50'sine denk gelmelidir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Eğer bir canlı yayın birden fazla bölümden oluşuyorsa, her bölüm için ayrı ayrı katılım formu doldurmak ve %50 şartına uymak gerekir mi?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılım formunun teknik bir aksaklık nedeniyle doldurulamaması durumunda, katılım belgesi alma hakkı tamamen kaybedilir mi, yoksa alternatif bir çözüm sunulur mu?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Canlı yayınlara %50'nin üzerinde katılım gösteren bir katılımcının, katılım belgesinde bu yüksek oranın belirtilmesi mümkün müdür?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılım formunun doldurulmasıyla doğrulanmış bir katılımın, sonradan sistemde herhangi bir hata oluşması durumunda, katılımcının katılım belgesi hakkı nasıl korunur?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Canlı yayınların belirli bir kısmına katılım sağlanıp form doldurulmazsa, o yayındaki katılım sıfır olarak mı değerlendirilir, yoksa katılımın bir yüzdesi mi alınır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılım belgesi için %50 katılım şartının, canlı yayınların tamamına katılamayan ancak sonradan kayıtları izleyenler için bir istisnası var mıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılım formunu doldurmanın, katılımcıların canlı yayındaki aktif varlığını (örneğin yorum yapma, soru sorma gibi) da doğruladığı varsayılır mı, yoksa sadece form doldurma eylemi mi yeterlidir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Evet, katılım belgesi alabilmek için canlı yayınların en az %50'sine katılmanız gerekiyor. Canlı yayın sırasında katılım formu paylaşılır ve sadece o an formu dolduranların katılımı doğrulanır.",
+    "keywords": [
+      "canlı yayın yoklama",
+      "katılım belgesi",
+      "canlı yayın katılım",
+      "katılım formu",
+      "yoklama alma",
+      "%50 katılım şartı",
+      "form doldurma",
+      "canlı",
+      "yayın",
+      "yoklama",
+      "katılım",
+      "belgesi",
+      "formu",
+      "alma",
+      "şartı",
+      "form",
+      "doldurma"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Canlı Yayınlar Kaydediliyor mu?**",
+    "all_questions": [
+      {
+        "question": "**Canlı Yayınlar Kaydediliyor mu?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar arşivleniyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar kayıt altına alınıyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar daha sonra izlenebiliyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayın içerikleri kaydediliyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Kayıtlı canlı yayınları nerede bulabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube kanalınızda canlı yayın kayıtları var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Kayıtlı yayınları izlemek için ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube kanalınızın adı nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube kanalınıza nasıl abone olabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bildirimleri açmam neden önemli?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Tüm canlı yayınlar kaydediliyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınların kayıtları hangi platformda yayınlanıyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Geçmiş canlı yayınları izlemek mümkün mü?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube kanalınızın linki nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Abone olmanın faydası nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bildirimleri açmak ne işe yarar?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınları kaçırmamak için ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube'da canlı yayın kayıtları mevcut mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar sonradan erişilebilir mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Kaydedilen yayınlar herkese açık mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Turkish AI Hub'ın YouTube kanalı var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınlar video olarak yükleniyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Eski canlı yayınları görmek istiyorum, nerede bulurum?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Hangi kanalda canlı yayın kayıtları mevcut?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Kayıtlı canlı yayınları izlemek için ücret ödemem gerekiyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınların tekrarını izlemek için ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayın içeriklerinin tümü kaydediliyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Neden YouTube kanalınıza abone olmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Canlı yayınların talep üzerine izlenebilmesi için hangi platform kullanılmaktadır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "YouTube kanalınızdaki canlı yayın arşivine ulaşmak için tam adres nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayın kayıtları için kullanıcıların yapması gereken temel adımlar nelerdir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Turkish AI Hub'ın tüm canlı yayınları istisnasız olarak mı kaydedilmektedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Yeni yüklenen canlı yayın kayıtlarından anında haberdar olmanın yolu nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Kayıt altına alınan canlı yayınların YouTube'a yüklenmesindeki amaç nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınları kaçıranlar için alternatif bir izleme yöntemi sunuluyor mu?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "YouTube kanalına abone olmak ve bildirimleri açmak, canlı yayın kayıtlarını takip etmede ne gibi bir avantaj sağlar?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınların kayıtlarına erişim sağlamak için belirli bir üyelik veya giriş yapma zorunluluğu var mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Hangi URL üzerinden Turkish AI Hub'ın canlı yayın kayıtlarına doğrudan erişim sağlanabilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınların kaydedilmesi ve YouTube'a yüklenmesi politikası, tüm içerikler için geçerli midir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Turkish AI Hub'ın geçmiş canlı yayınlarına sürekli erişim sağlamak için ne yapılması önerilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayın kayıtlarının YouTube'a yüklenmesi, izleyicilere ne tür bir kolaylık sunar?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayınların kaçırılmasını önlemek adına kullanıcılara sunulan etkin çözüm nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "YouTube kanalında bildirimleri etkinleştirmenin, yeni canlı yayın kayıtlarından haberdar olma sürecine katkısı nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Canlı yayın kayıtları için YouTube kanalınızın resmi ve tek adresi nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Turkish AI Hub'ın tüm canlı yayın içeriklerinin kaydedilip YouTube'a yüklenmesi politikasının ardındaki temel prensip nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Kullanıcıların, Turkish AI Hub'ın YouTube kanalındaki tüm yeni canlı yayın kayıtlarından proaktif olarak haberdar olmasını sağlayacak kesin prosedür nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Verilen YouTube URL'si (@TurkishAIHub) göz önüne alındığında, Turkish AI Hub'ın canlı yayın arşivine ulaşım için kullanılan benzersiz tanıtıcı nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Canlı yayınların kaydedilerek YouTube'a yüklenmesi, izleyicilerin canlı katılım sağlayamadığı durumlarda içeriğe erişimi nasıl optimize etmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Turkish AI Hub'ın canlı yayın içeriklerine sürekli ve kesintisiz erişimi garanti altına almak için kullanıcılara sunulan tam kapsamlı eylem planı nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "''Kaçırmamak için'' ifadesi bağlamında, YouTube kanalına abonelik ve bildirimlerin açılmasının, Turkish AI Hub'ın içerik takibi stratejisindeki kritik rolü nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Turkish AI Hub'ın canlı yayın kayıtlarını YouTube platformunda tutma kararı, içeriklerin erişilebilirliği ve uzun süreli saklanması açısından ne gibi avantajlar sunar?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Tüm canlı yayınların kaydedilip YouTube'a yüklenmesi, Turkish AI Hub'ın içerik tüketimi ve kullanıcı etkileşimi hedeflerine nasıl katkıda bulunmaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Turkish AI Hub'ın canlı yayın içeriklerinin eksiksiz bir şekilde arşivlenmesi ve YouTube üzerinden sunulması, platformun genel bilgi paylaşım misyonunu nasıl destekler?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Evet, tüm canlı yayınlar kaydedilmekte ve **YouTube** kanalımıza yüklenmektedir. Kaçırmamak için **https://www.youtube.com/@TurkishAIHub** kanalımıza abone olabilir ve bildirimleri açabilirsiniz. :check:",
+    "keywords": [
+      "canlı yayınlar",
+      "canlı yayın kaydı",
+      "YouTube",
+      "YouTube kanalı",
+      "TurkishAIHub",
+      "canlı yayın YouTube",
+      "abone ol",
+      "canlı",
+      "yayınlar",
+      "yayın",
+      "kaydı",
+      "youtube",
+      "kanalı",
+      "turkishaihub",
+      "abone"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Projeyi Grup Olarak mı Yapmalıyız?**",
+    "all_questions": [
+      {
+        "question": "**Projeyi Grup Olarak mı Yapmalıyız?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bu projeyi takım halinde mi gerçekleştirmeliyiz?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projenin ekip olarak yapılması mı gerekiyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projeyi ekipçe yürütmemiz mi bekleniyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Grup halinde çalışma zorunluluğu var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projeleri 2 kişilik ekipler halinde yapabilir miyiz?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Gruplar en fazla kaç kişiden oluşabilir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Maksimum iki kişilik gruplar halinde mi çalışmalıyız?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projeleri bireysel ya da ikili olarak gerçekleştirebilir miyiz?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje teslimleri için tek kişilik gruplar kabul ediliyor mu?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje sürecinde katılımcılar tek başına mı yoksa gruplar halinde mi çalışmalı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Projeleri tek kişi olarak tamamlamanın veya iki kişilik bir ekip kurmanın şartları nelerdir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Projeleri tek başınıza ya da en fazla 2 kişilik gruplar halinde gerçekleştirebilirsiniz. Grup zorunluluğu yoktur.",
+    "keywords": [
+      "grup projesi",
+      "tek kişilik proje",
+      "proje grup zorunluluğu",
+      "2 kişilik proje",
+      "bireysel proje",
+      "proje kaç kişi",
+      "proje yapma",
+      "grup",
+      "projesi",
+      "kişilik",
+      "proje",
+      "zorunluluğu",
+      "bireysel",
+      "kişi",
+      "yapma"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Mentor Toplantılarının Günleri Belli mi?**",
+    "all_questions": [
+      {
+        "question": "**Mentor Toplantılarının Günleri Belli mi?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mentor toplantılarının günleri belirlendi mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mentor toplantılarının tarihleri netleşti mi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mentor toplantılarının günleri hakkında bilgi var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mentor toplantılarına katılım zorunlu mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Zulip'teki duyurular kanalı ne tür bilgiler içerir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp takvimi kanalında hangi toplantıların bilgisi var?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mentor toplantıları için duyurular hangi uygulama üzerinden yapılıyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Bootcamp takvimi kanalı mentor toplantıları için ne sağlıyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mentor toplantılarının gün ve saat bilgilerine ulaşmak için hangi iki spesifik Zulip kanalını kontrol etmeliyim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantılarına katılımın hem zorunlu olmaması hem de tavsiye edilmesi ne anlama geliyor?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantılarının zamanlaması ve yeri hakkında resmi duyurular hangi platformlar aracılığıyla yapılmaktadır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp katılımcıları mentor toplantıları hakkında güncel bilgilere hangi kanallardan erişebilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantılarının programı ve katılım durumu hakkında detaylı bilgiye nereden ulaşılır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Zulip'te mentor toplantılarının günleri ve saatlerini içeren iki temel kanal hangileridir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantısı katılımı konusunda resmi tutum nedir; zorunluluk ve tavsiye açısından?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bootcamp'in genel takvimi içerisinde mentor toplantılarının yerini öğrenmek için hangi kanala bakılmalıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantıları hakkında hem zaman çizelgesi hem de katılım politikası bilgileri hangi platformlarda mevcuttur?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantılarının günleri ve saatleri ile ilgili bilgileri öğrenmek için hangi iki kanalın aktif olarak kontrol edilmesi önerilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mentor toplantılarının günleri, saatleri, katılım zorunluluğu ve tavsiye edilme durumu gibi tüm detaylara ulaşmak için izlenmesi gereken kapsamlı iletişim stratejisi nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Zulip platformundaki 'duyurular' ve 'bootcamp takvimi' kanallarının, mentor toplantılarının hem zaman çizelgesi hem de katılım politikası açısından bilgilendirme sürecindeki rolü nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılımcıların mentor toplantılarıyla ilgili olarak hem planlama (günler ve saatler) hem de katılım kararı (zorunlu değil ama tavsiye edilir) süreçlerini yönetmeleri için hangi ana bilgi noktaları ve kaynaklar sağlanmıştır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Mentor toplantılarının takvimi ile ilgili olarak Zulip'teki duyurular kanalının ve bootcamp takvimi kanalının eşgüdümlü olarak sağladığı bilgiler nelerdir ve katılım durumu bu bağlamda nasıl açıklanmaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Zulip üzerinde 'duyurular kanalı' ve 'bootcamp takvimi kanalı'nın mentor toplantılarının gün ve saatlerini paylaşma işlevi ile katılımın zorunlu olmaması ama tavsiye edilmesi durumu nasıl entegre bir şekilde sunulmaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bootcamp mentor toplantıları için geçerli olan iletişim protokolü, toplantı zamanlamalarını ve katılımın isteğe bağlı ancak önerilen doğasını nasıl kapsamlı bir şekilde duyurmaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Mentor toplantılarının zaman çizelgesine ve katılımcılar için belirlenen esnek ancak teşvik edici katılım yönergelerine dair bilgi edinmek için hangi resmi kanallar mevcuttur?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Mentor toplantıları hakkında hem zaman ve yer bilgisini hem de katılım politikasını (zorunluluk ve tavsiye) içeren tüm bilgilere erişim noktaları nelerdir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Mentor toplantıları ve saatleri, Zulip'teki duyurular kanalında ve bootcamp takvimi kanalında paylaşılmaktadır. Katılım zorunlu değildir ama tavsiye edilir.",
+    "keywords": [
+      "mentor toplantıları",
+      "mentor toplantı saatleri",
+      "bootcamp takvimi",
+      "Zulip duyurular",
+      "katılım zorunlu mu",
+      "mentor toplantı duyuru",
+      "bootcamp takvimi kanalı",
+      "mentor",
+      "toplantıları",
+      "toplantı",
+      "saatleri",
+      "bootcamp",
+      "takvimi",
+      "zulip",
+      "duyurular",
+      "katılım",
+      "zorunlu",
+      "duyuru",
+      "kanalı"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Sertifikam Yüklenmedi/Sertifikada İsmim Yanlış, Ne Yapmalıyım?**",
+    "all_questions": [
+      {
+        "question": "**Sertifikam Yüklenmedi/Sertifikada İsmim Yanlış, Ne Yapmalıyım?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikam sisteme yüklenmemişse veya üzerindeki ismim hatalıysa, bu durumu düzeltmek için nasıl bir yol izlemeliyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Eğer sertifikam henüz görüntülenemiyorsa ya da sertifika üzerindeki adım yanlış yazılmışsa, hangi adımları atmam gerekir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikamın yüklenmemesi veya sertifikadaki ismimde bir yanlışlık olması durumunda ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikam hala sisteme yüklenmediyse kimden destek alabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Destek almak için hangi kanalı kullanmalıyım eğer sertifikamda bir problem varsa?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yeni bir talep oluşturmak için hangi kanal uygun?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikamda bir aksaklık varsa, destek için nereye yönelmeliyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika ile ilgili bir sorun yaşadığımda hangi destek kanalını kullanmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikamda bir hata varsa, destek için nereye gitmeliyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika ile ilgili bir sorun yaşadığımda yeni bir talep nerede oluşturabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikamla ilgili bir sorun olduğunda talep oluşturma süreci nasıl başlar?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikamda bir sorun varsa destek almak için atmam gereken ilk adım nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikamda ortaya çıkan çeşitli sorunlar için destek almak üzere bir talep oluşturma süreci hangi kanal üzerinden yürütülür?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Eğer sertifikamda teknik bir aksaklık varsa veya henüz görüntülenemiyorsa, bu durumu çözmek adına başvurabileceğim resmi destek kanalı hangisidir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamın hala sistemde görünmemesi veya üzerinde bir hata bulunması halinde, bu durumun düzeltilmesi için nereye bildirimde bulunmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamla ilgili bir problem yaşadığımda, destek almak ve bir talep açmak için hangi özel kanalı kullanmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamda herhangi bir sorun tespit edildiğinde veya yüklenmediyse, bu durumu rapor etmek ve yardım almak için nereye başvurmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamın sisteme yüklenmesi geciktiyse veya üzerinde bir hata varsa, bu durumu çözmek için hangi destek kanalını kullanmalıyım ve ne yapmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamda bir problem veya yüklenmeme durumu olduğunda, bu durumu çözmek üzere Teknik Sorular kanalında nasıl bir talep oluşturabilirim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikam hala yüklenmediyse veya üzerinde bir hata varsa, bu durumu çözmek için bir destek talebi oluşturmanın ilk adımı nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamda oluşan bir sorun nedeniyle destek almak için, yeni bir talep oluşturma işlemini hangi kanal aracılığıyla gerçekleştirmeliyim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikam hala yüklenmediyse veya üzerinde bir hata varsa, bu durumu çözmek için hangi adımları izlemeliyim ve hangi kanala başvurmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikamda bir aksaklık meydana gelmesi veya sisteme henüz yüklenmemiş olması durumunda, bu tür teknik meselelerin çözümü için hangi spesifik destek platformuna başvurulması gerekmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Eğer sertifikamda bir hata mevcutsa veya hala görüntülenemiyorsa, bu durumu düzeltmek amacıyla destek almak ve yeni bir bildirim kaydı oluşturmak için hangi kanalın kullanılması önerilir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifikamın beklenenden daha uzun süre yüklenmemesi veya üzerinde herhangi bir sorun tespit edilmesi halinde, bu durumun giderilmesi için hangi destek kanalı üzerinden yetkili bir talep oluşturmalıyım?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifikamda oluşan bir problem veya sisteme düşmemesi gibi durumlar için, bu konularda uzmanlaşmış destek ekibine ulaşmak ve bir talep açmak amacıyla hangi kanal kullanılmalıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifikamla ilgili bir sorun yaşadığımda veya hala yüklenmediyse, bu durumu çözmek için teknik destek alabileceğim ve resmi bir talep oluşturabileceğim uygun kanal hangisidir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifikamda bir sorun varsa veya henüz sisteme yüklenmediyse, bu durumu bildirmek ve çözüm talep etmek için hangi özel destek birimine başvurmalıyım?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifikamın yüklenmesinde bir gecikme yaşanıyorsa veya içeriğinde bir hata bulunuyorsa, bu sorunları çözüme kavuşturmak amacıyla hangi kanaldan destek alabilir ve bir aksiyon talebi oluşturabilirim?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifikamda meydana gelen herhangi bir aksaklık (örneğin, dijital imza sorunu, doğrulama hatası) veya yüklenmeme durumu için, destek sağlamak ve çözüm sürecini başlatmak adına hangi kanal kullanılmalıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Eğer sertifikam hala sisteme dahil edilmediyse veya üzerinde bir problem bulunuyorsa, bu konudaki sorunları çözmek ve resmi bir talep kaydı oluşturmak için başvurulması gereken belirli bir destek kanalı var mıdır?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Eğer sertifikanızda bir sorun varsa veya hala yüklenmediyse, **Teknik Sorular** kanalından destek alabilir ve yeni bir talep oluşturabilirsiniz.",
+    "keywords": [
+      "sertifika yüklenmedi",
+      "sertifika isim yanlış",
+      "sertifika sorunu",
+      "Teknik Sorular kanalı",
+      "sertifika destek",
+      "sertifika talep oluşturma",
+      "sertifika hataları",
+      "sertifika",
+      "yüklenmedi",
+      "isim",
+      "yanlış",
+      "sorunu",
+      "teknik",
+      "sorular",
+      "kanalı",
+      "destek",
+      "talep",
+      "oluşturma",
+      "hataları"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "**Git Kullanmayı Bilmiyorum, Kodumu GitHub'a Nasıl Yüklerim?**",
+    "all_questions": [
+      {
+        "question": "**Git Kullanmayı Bilmiyorum, Kodumu GitHub'a Nasıl Yüklerim?**",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Git bilgim olmadığı halde, kodumu GitHub'a nasıl aktarabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Git kullanmaya hakim değilim; yazdığım kodu GitHub platformuna nasıl gönderebilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Git'i hiç kullanmamış biri olarak, mevcut kodumu GitHub'da nasıl yayınlayabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "GitHub'a kod yükleme sürecini web arayüzü üzerinden adım adım gösteren bir kılavuz var mı?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Versiyon kontrol sistemlerine aşina olmayan bir ekibin GitHub'a kod yükleme sürecini optimize etmek için web arayüzü tabanlı yaklaşım nasıl uygulanır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "GitHub'a Git repository'si oluşturmadan veya klonlamadan, mevcut bir proje dosya yapısını koruyarak web arayüzü üzerinden yükleme işlemi nasıl gerçekleştirilir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Web arayüzü ile yükleme: https://www.youtube.com/watch?v=gJb1XebzNeo videoyu izleyerek kolayca yapabilirsiniz.",
+    "keywords": [
+      "GitHub'a kod yükleme",
+      "Git kullanmadan GitHub",
+      "GitHub web arayüzü",
+      "GitHub başlangıç",
+      "GitHub video anlatım",
+      "GitHub dosya yükleme",
+      "GitHub proje yükleme",
+      "github'a",
+      "yükleme",
+      "kullanmadan",
+      "github",
+      "arayüzü",
+      "başlangıç",
+      "video",
+      "anlatım",
+      "dosya",
+      "proje"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Youtube Canlı Yayınlar Yoklama Sorunları Hakkında",
+    "all_questions": [
+      {
+        "question": "Youtube Canlı Yayınlar Yoklama Sorunları Hakkında",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Youtube canlı yayınlarında yoklama alınırken hangi zorluklarla karşılaşılmaktadır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Youtube üzerinden gerçekleştirilen canlı yayınlarda katılımcı yoklamasıyla ilgili yaşanan sorunlar nelerdir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Youtube canlı yayınlarındaki yoklama alma süreçlerindeki aksaklıklar nasıl giderilebilir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Youtube Canlı Yayınlarında yoklama nasıl alınmaktadır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yoklama için form nerede paylaşılmaktadır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarında katılımcı sayısını takip etmek için ne kullanılıyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarında katılımın %50'ye ulaşması için ne yapılıyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarındaki yoklama mekanizması nasıl işlemektedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Webinar chatinde paylaşılan formun yoklama sürecindeki rolü nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarında %50 katılım hedefine ulaşmak için kullanılan temel yöntem nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Yoklama alma işleminin YouTube Canlı Yayınları için özel bir uygulama mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarındaki %50 katılım hedefinin gerçekleştirilmesi için form bazlı yoklama sistemi nasıl bir etkinlik sağlamaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Webinar chatinde paylaşılan formun katılımcı etkileşimi ve yoklama süreçleri üzerindeki etkisi nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarında uygulanan bu yoklama prosedürü, genel katılım oranlarını nasıl etkilemeyi hedeflemektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Form aracılığıyla yoklama alma sisteminin, canlı yayın katılımcılarının etkinliğini ölçmedeki rolü nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "YouTube Canlı Yayınlarındaki %50 katılım hedefine ulaşmada form tabanlı sistemin sunduğu avantajlar nelerdir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Katılımcıların katılımını doğrulamak için formu doldurma zorunluluğu, yoklama verilerinin doğruluğunu nasıl garanti etmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Bu yoklama yöntemi, YouTube Canlı Yayınlarının genel etkinlik ve verimlilik hedeflerine nasıl katkı sağlamaktadır?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Herkese merhaba,\n\nYouTube Canlı Yayınlarında %50 katılım sağlanması için webinar chatinde paylaşılan form aracılığıyla yoklama alınmaktadır. Lütfen formu doldurarak katılımınızı doğrulamayı unutmayın.\n\nTeşekkürler!",
+    "keywords": [
+      "Youtube Canlı Yayın",
+      "Canlı Yayın Yoklama",
+      "Katılım Formu",
+      "Youtube Canlı Yayın Katılım",
+      "Yoklama Sorunları",
+      "Webinar Chat",
+      "Katılım Doğrulama",
+      "youtube",
+      "canlı",
+      "yayın",
+      "yoklama",
+      "katılım",
+      "formu",
+      "sorunları",
+      "webinar",
+      "chat",
+      "doğrulama"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Sertifika'da İsim-Harf Problemi",
+    "all_questions": [
+      {
+        "question": "Sertifika'da İsim-Harf Problemi",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikadaki isimlerde harf uyuşmazlığı",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Belgelerdeki ad yazımında harf yanlışlığı",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika üzerindeki adlardaki karakter sorunları",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifikalarda isimlerin baş harfinin '?' olarak görünmesi ne anlama geliyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "İsimdeki soru işareti sorununu çözmek için ne yapmalıyız?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "İsim değişikliği işlemi hangi platformda yapılmalıdır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "İsim düzeltme işlemi için özel bir platform var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "İsim hatasını gidermek için adımızı nasıl güncellemeliyiz?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "İsim değişikliği yaptıktan sonra ne yapmalıyız?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika platformunda ismimizi İngilizce karakterlerle yeniden kaydetmenin amacı nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifikalardaki karakter sorununu kalıcı olarak çözmek için isim değişikliğinde neye dikkat edilmeli?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika platformunda isim güncellemesi yaparken, İngilizce karakter kullanımının önemi nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "İsim değişikliği yaparken, Türkçe karakterlerin kullanımı neden sorun yaratıyor?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika platformunda isim düzeltmesi için hangi adımları takip etmeliyim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika platformunda isim değişikliğinin ardından neden tekrar kontrol yapılması gerekiyor?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "İsim değişikliği sonrası sertifikaların tekrar kontrol edilmesi hangi sonuçları doğrulamak içindir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bu çözüm, sertifika platformundaki karakter işleme sorunlarının genel bir düzeltmesi midir, yoksa sadece belirli bir sembol için mi?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "İngilizce karakterlerle yeniden kaydetme tavsiyesi, sertifika platformunun farklı dillerdeki özel karakterleri işleme yeteneğindeki bir eksikliği mi gidermeye çalışıyor?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "İsim değişikliği yapılırken, platformun uluslararası karakter kodlamalarını (örneğin UTF-8) tam olarak desteklemediği varsayımı mı yapılıyor?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifika platformunda isim değişikliği sonrası sertifikaların tekrar kontrol edilmesi, sistemin güncelleme veya senkronizasyon süreçlerinin bir parçası mıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Kullanıcılardan gelen \"baş harfinin '?' olarak göründüğü\" geri bildirimi, platformun hangi teknik sınırlılığına işaret etmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sertifika platformunda isimleri İngilizce karakterlerle kaydetme önerisi, sistemin uluslararasılaşma (i18n) standartlarına uyumundaki mevcut durumu hakkında ne ipuçları vermektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "İngilizce karakterlerle yeniden kayıt çözümünün, sertifika platformunun temel karakter işleme altyapısına yönelik geçici bir çözüm olduğu söylenebilir mi?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Merhaba,\n\nBazı kullanıcılarımız sertifikalarında isimlerinin baş harfinin \"?\" olarak göründüğünü belirtti. Bu sorunu çözmek için aşağıdaki adımları takip edebilirsiniz:\nÖnerilen Çözüm:\n\nİsim Değişikliği: Sertifika platformu üzerinde isminizi İngilizce karakterlerle yeniden kaydedin. Bu, hatalı karakterlerin düzelmesine yardımcı olabilir.\nTekrar Kontrol: İsim değişikliği yaptıktan sonra sertifikalarınızı tekrar kontrol edin.\nAnlayışınız ve sabrınız için teşekkür ederiz.",
+    "keywords": [
+      "sertifika isim hatası",
+      "sertifika karakter sorunu",
+      "sertifika baş harf hatası",
+      "sertifika isim değişikliği",
+      "ingilizce karakter sertifika",
+      "sertifika isim düzeltme",
+      "sertifika soru işareti",
+      "sertifika",
+      "isim",
+      "hatası",
+      "karakter",
+      "sorunu",
+      "harf",
+      "değişikliği",
+      "ingilizce",
+      "düzeltme",
+      "soru",
+      "işareti"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Şifreniz İle Giriş Yapamıyorum",
+    "all_questions": [
+      {
+        "question": "Şifreniz İle Giriş Yapamıyorum",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Şifremle sisteme giriş yapmada sorun yaşıyorum.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Şifremi girmeme rağmen oturum açamıyorum.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Belirttiğim şifreyle sisteme erişim sağlayamıyorum.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Giriş ekranında şifremi unuttum seçeneği ne işe yarar?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yeni bir şifre nasıl talep edebilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Giriş yaparken şifremi unuttum, yardım edebilir misiniz?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sisteme giriş yaparken şifremle ilgili bir uyuşmazlık yaşadığımda, yeni bir kimlik doğrulama bilgisi talep etme yolu nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Giriş denemelerim şifre kaynaklı bir sorun nedeniyle engellendiğinde, sisteme yeniden giriş yapmamı sağlayacak çözüm nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "\"Şifremi Unuttum\" seçeneği, bir kullanıcının şifreyle ilgili yaşadığı hangi tür sorunları çözer?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mevcut şifremi kullanarak sisteme giriş yapmada kalıcı bir sorun yaşadığımda, sisteme erişimimi nasıl yenileyebilirim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sisteme giriş yaparken şifremle ilgili bir aksaklık yaşadığımda, yeni bir parola edindikten sonra sisteme nasıl erişebilirim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Eğer giriş denemelerimde şifremle ilgili bir sorun yaşıyorsam, bu durumu düzeltmek ve başarılı bir şekilde giriş yapmak için ne yapmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Şifre ile ilgili bir sorun nedeniyle sisteme giriş yapmada sürekli bir engel yaşadığımda, bu engeli aşmak ve sisteme tekrar başarıyla erişim sağlamak için izlenecek en kapsamlı yol haritası nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Sisteme giriş yapmayı denediğimde şifremin geçerliliğiyle ilgili bir sorunla karşılaştığımda, mevcut erişim kısıtlamasını kaldırarak sisteme tam erişim elde etmek için atılması gereken adımların mantıksal sırası nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Şifremi unuttuğum veya şifremle ilgili başka bir sorun yaşadığım durumda, sisteme güvenli bir şekilde yeniden erişim sağlamak için parola sıfırlama mekanizmasının adımları ve amacı nedir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Eğer giriş yapmayı denediğinizde şifrenizle ilgili sorun yaşıyorsanız \"Şifremi Unuttum\" seçenği ile yeni şifre talep edip, yeni şifrenizle giriş yapabilirsiniz.",
+    "keywords": [
+      "Giriş yapamıyorum",
+      "Şifremi unuttum",
+      "Şifre sorunu",
+      "Yeni şifre",
+      "Şifre talep etme",
+      "Giriş sorunu",
+      "Şifre sıfırlama",
+      "giriş",
+      "yapamıyorum",
+      "şifremi",
+      "unuttum",
+      "şifre",
+      "sorunu",
+      "yeni",
+      "talep",
+      "etme",
+      "sıfırlama"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Sistem, Mailinizi Kabul Etmiyor",
+    "all_questions": [
+      {
+        "question": "Sistem, Mailinizi Kabul Etmiyor",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sistem, e-postanızı almıyor.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mailiniz sistem tarafından reddediliyor.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Uygulama, iletinizi onaylamıyor.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yeni bir şifre talep etmek için hangi seçeneği kullanmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yeni şifre talebimde mail adresim kabul edilmezse hangi adımı denemeliyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mail adresim kabul edilmediğinde gizli sekme kullanmak bir çözüm müdür?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Şifremi unuttum seçeneği hangi durumda kullanılır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Teknik destek formu Courses.ai platformunda hangi kategori altında yer alıyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Şifre sorunumu çözmek için 'Şifremi Unuttum' seçeneğini kullandıktan sonra ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Mail adresimin kabul edilmemesi durumunda mobil cihazdan denemek bir seçenek midir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Teknik sorunlarla ilgili formu ne zaman doldurmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Şifremi unuttuğumda yeni şifremi nasıl talep edebilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yeni şifre talebinde mail adresimin kabul edilmemesi durumunda başvurabileceğim genel yöntemler nelerdir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Giriş yaparken şifre sorunları yaşayıp, ardından yeni şifre talebimde e-posta adresimin reddedilmesi durumunda izlemem gereken adımlar nelerdir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Yeni şifre talebinde mail adresimin kabul edilmemesi durumunda uygulanabilecek tarayıcı ile ilgili çözümler nelerdir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Şifremi unuttum seçeneğini kullanmama rağmen mail adresim kabul edilmiyorsa, gizli sekme ve farklı tarayıcı kullanmanın yanı sıra başka hangi tarayıcı ayarlarını kontrol etmeliyim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Giriş yapamama ve mail adresinin reddedilmesi sorunlarına eş zamanlı olarak hangi ek adımı uygulamalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.ai Platformunda yaşanan teknik sorunlar için doldurulması gereken formun tam kategorisi nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Mail adresimin kabul edilmediği durumlarda, denenecek farklı platform veya ortamlar hangileridir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Yeni şifre talebinde e-posta adresimin reddedilmesi sorununa çözüm bulmak için denenebilecek farklı erişim yöntemleri nelerdir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Kullanıcı adı ve şifre ile ilgili sorunlar yaşayıp, e-posta adresimin de reddedilmesi halinde, sorunu çözmek için hangi genel yaklaşımları izlemeliyim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Yeni şifre talebimde mail adresim kabul edilmezse, tarayıcının önbelleğini temizlemek gibi tarayıcı ile ilgili hangi adımları atmalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Şifremi unuttum akışında e-posta kabul sorunları yaşandığında, hangi web tarayıcısı modları veya alternatif tarayıcılar denenebilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Şifremi sıfırlama talebimde e-posta adresimin reddedilmesi durumunda, gizli sekme dışında hangi alternatif tarayıcı ortamlarını deneyebilirim?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Giriş yaparken şifre sorunları ve yeni şifre talebinde e-posta adresinin kabul edilmemesi durumunda, sorun giderme sürecine nasıl başlamalıyım?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Teknik bir sorun yaşadığımda ve mail adresim reddedildiğinde doldurmam gereken formun ait olduğu platform nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Şifremi unuttum seçeneğini kullandıktan sonra mail adresim hala kabul edilmezse, uygulayabileceğim ek tarayıcı tabanlı çözümler nelerdir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Giriş yaparken şifre sorunları yaşadığımda ve yeni şifre talebimde e-posta adresim kabul edilmediğinde, izlemem gereken tüm çözüm adımlarını ve başvurmam gereken nihai kaynağı detaylı olarak açıklayabilir misiniz?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Courses.ai Platformunda yaşanan teknik sorunlar hakkında doldurulması gereken formun tam adı ve kategorisi referans numarasıyla birlikte nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Şifremi unuttum akışında e-posta adresimin kabul edilmemesi durumunda, tarayıcı tabanlı çözümler (gizli sekme, farklı tarayıcılar, cache temizliği) ve cihaz tabanlı çözümler (mobil cihazlar) uygulandıktan sonra başvurulacak son çare nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Giriş yapamama ve e-posta adresimin yeni şifre talebinde reddedilmesi gibi birden fazla sorunla karşılaştığımda, bu sorunları çözmek için eş zamanlı olarak hangi adımı atmam önerilir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Şifremi unuttum seçeneğini kullanmama rağmen e-posta adresimin kabul edilmemesi durumunda, kullanıcıların denemesi gereken tüm alternatif erişim yöntemleri ve eş zamanlı doldurulması gereken formun detayları nelerdir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Yeni şifre talebinde e-posta adresinin reddedilmesi durumunda, tarayıcı önbelleğini temizlemek ve farklı tarayıcılar kullanmak gibi adımların yanı sıra, mobil cihazlardan denemek gibi farklı bir platformdan erişim sağlama yöntemi ne zaman devreye sokulmalıdır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Courses.ai Platformunda yaşanan teknik sorunlar hakkında doldurulması gereken formun tam konumunu ve başlığını belirtir misiniz?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Giriş şifresi sorunları ve ardından e-posta kabul sorunları yaşanması durumunda, bu iki durumu kapsayan ve nihai çözüm olarak sunulan adım nedir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Giriş yapmayı denediğinizde şifrenizle ilgili sorun yaşıyorsanız \"Şifremi Unuttum\" seçeneği ile yeni şifre talep edip, yeni şifrenizle giriş yapabilirsiniz.\n\nAncak, yeni şifre talebinizde mail adresinizi de kabul etmiyorsa; gizli sekme, farklı tarayıcılar, tarayıcının cache'ini silip denemek ya da mobil cihazlarınızdan denemek gibi yöntemler izleyebilirsiniz.\n\nEş zamanlı olarak da, buradaki formu doldurabilirsiniz: #05. Teknik Sorular > Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında @",
+    "keywords": [
+      "Mail kabul etmiyor",
+      "Şifremi unuttum",
+      "Giriş sorunu",
+      "Yeni şifre",
+      "Teknik sorunlar",
+      "Courses.ai platformu",
+      "Tarayıcı cache silme",
+      "mail",
+      "kabul",
+      "etmiyor",
+      "şifremi",
+      "unuttum",
+      "giriş",
+      "sorunu",
+      "yeni",
+      "şifre",
+      "teknik",
+      "sorunlar",
+      "courses.ai",
+      "platformu",
+      "tarayıcı",
+      "cache",
+      "silme"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında",
+    "all_questions": [
+      {
+        "question": "Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.ai platformundaki teknik aksaklıklar üzerine.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.ai platformunda karşılaşılan teknik problemler hakkında.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.ai sisteminde ortaya çıkan teknik meseleler hakkında.",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai'deki teknik sorunları bildirmek için ne yapmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Hangi platformda teknik sorunlar için form oluşturuldu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai'de sertifika alamama sorunu yaşarsam nereye bildirmeliyim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Görsellerin görünmemesi gibi bir teknik problem için ne yapmam bekleniyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Teknik sorunları bildirmek için oluşturulan formun linki nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai katılımcıları teknik sorunlarını nasıl iletmelidir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Teknik ekibe sorunları daha hızlı iletmek için ne yapıldı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai platformunda hangi tür sorunlar için form doldurmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Formu doldurmakla teknik ekibe sorunlar ne şekilde ulaşacak?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Sertifika alamama, ilerleme kaydedilememe gibi sorunlar hangi kategoriye girer?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai kullanıcıları için teknik sorun bildirim süreci nasıl basitleştirildi?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Teknik bir problemle karşılaşan katılımcılardan hangi eylemi yapmaları isteniyor?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai platformunda yaşanan teknik sorunların çözümü için ilk adım nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Teknik ekibe ulaşmanın daha hızlı yolu nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai'de sayfa yüklenmeme hatasını nasıl raporlamalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Görsellerin görünmemesi sorununu bildirmek için özel bir yol var mı?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai platformundaki teknik sorunlar için taleplerim nereye iletilecek?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Courses.10million.ai'deki teknik sorunları bildirmek için özel bir formun oluşturulmasının temel amacı nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Teknik ekibe talepleri daha hızlı iletmek formun hangi faydasını vurgulamaktadır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai platformunda yaşanan sayfa yüklenmeme gibi sorunların çözüm sürecini bu form nasıl hızlandıracaktır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Sertifika alamama veya ilerleme kaydedilememe gibi spesifik teknik sorunlar için form doldurmak, genel destek taleplerinden ne gibi bir fark yaratır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai katılımcılarının teknik sorunlarını doğrudan teknik ekibe iletme süreci bu form ile nasıl bir dönüşüm geçirecek?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Görsellerin görünmemesi gibi sorunlarda, form doldurmak neden e-posta veya başka bir iletişim kanalına göre daha etkili olabilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai platformunda karşılaşılan teknik problemlerin bildiriminde hız faktörü neden önemlidir ve form bunu nasıl sağlıyor?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai platformunda teknik sorunlarla ilgili katılımcı beklentilerini karşılamada bu formun rolü nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Teknik bir problemle karşılaşan katılımcıların sabır ve iş birliği için teşekkür edilmesi, bu sürecin hangi yönüne işaret etmektedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai platformunda teknik sorun bildirimlerinde kullanılan bu form, kullanıcı deneyimini hangi açıdan iyileştirmeyi amaçlamaktadır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai'deki teknik sorunlar için formun kullanılması, genel destek taleplerinin yükünü nasıl etkileyebilir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Bu formun varlığı, Courses.10million.ai'nin teknik sorunlara yaklaşımında hangi önceliği gösterir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Courses.10million.ai platformunda teknik sorunları raporlama mekanizmasının bu form ile revize edilmesi, teknik destek operasyonlarının hangi stratejik amacına hizmet etmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Formun kullanımıyla hedeflenen \"talepleri daha hızlı bir şekilde teknik ekibimize iletebilmemiz adına\" ifadesi, teknik destek iş akışında hangi kritik iyileştirmeyi vurgulamaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Courses.10million.ai platformunun genel performans ve kullanıcı memnuniyeti üzerindeki potansiyel etkisi açısından, bu formun devreye alınmasının kritik rolü nedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Teknik sorun bildirim formunun oluşturulması, Courses.10million.ai'nin teknik ekibinin iç süreçlerinde hangi verimlilik artışını tetiklemeyi amaçlamaktadır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Courses.10million.ai platformunda teknik sorunların kategorize edilmesi ve önceliklendirilmesi süreçlerinde bu formun rolü nasıl bir katkı sağlayacaktır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Courses.10million.ai platformunda teknik sorun bildirimlerinin merkezi hale getirilmesi, olası arıza sürelerinin azaltılmasına nasıl katkıda bulunabilir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Formun kullanımıyla teknik ekibe iletilen sorunların daha hızlı ulaşması, platformun genel güvenilirliği ve sürekliliği açısından ne anlama gelmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Teknik sorun bildirim formunun oluşturulması, Courses.10million.ai'nin katılımcı odaklı hizmet anlayışını hangi somut adımla pekiştirmektedir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Courses.10million.ai'deki teknik sorun bildirim sürecinde, bu formun entegrasyonuyla elde edilecek ana operasyonel fayda nedir?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Herkese merhaba, @everyone\n\nCourses.10million.ai platformunda karşılaşabileceğiniz \"sertifika alamama\", \"ilerleme kaydedilememe\", \"sayfa yüklenmeme\" veya \"görsellerin görünmemesi\" gibi teknik sorunlarla ilgili olarak taleplerinizi daha hızlı bir şekilde teknik ekibimize iletebilmemiz adına bir form oluşturduk. Teknik bir problemle karşılaşan katılımcılarımızın aşağıdaki formu doldurmalarını rica ediyoruz.\nForm Linki: (https://forms.gle/vwgAbR4pusb7DHWG7)\n\nŞimdiden sabrınız ve iş birliğiniz için teşekkür ederiz! :blush:",
+    "keywords": [
+      "Courses.ai Platformu",
+      "Teknik Sorunlar",
+      "Sertifika Alamama",
+      "İlerleme Kaydedilememe",
+      "Courses.10million.ai",
+      "Courses.ai Hata",
+      "Sorun Bildirim Formu",
+      "courses.ai",
+      "platformu",
+      "teknik",
+      "sorunlar",
+      "sertifika",
+      "alamama",
+      "i̇lerleme",
+      "kaydedilememe",
+      "courses.10million.ai",
+      "hata",
+      "sorun",
+      "bildirim",
+      "formu"
+    ],
+    "difficulty_level": "beginner"
+  },
+  {
+    "category": "Genel",
+    "original_question": "Proje Dokümanları ve Kaynaklarını nereden bulabilirim?",
+    "all_questions": [
+      {
+        "question": "Proje Dokümanları ve Kaynaklarını nereden bulabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje Dokümanları ve Kaynaklarına nasıl ulaşabilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje Dokümanları ve Kaynakları nerede yer almaktadır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje Dokümanları ve Kaynaklarını temin etmek için nereye bakmalıyım?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje PDF'i kimlerle paylaşılmıştır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Yayında gösterilen kod örneğinin reposu nereden erişilebilir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Chatbot projesi için veri seti kullanımında bir üst sınır var mıdır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projenin web arayüzü için belirli bir frontend dili kullanmak gerekli midir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Python temelli web arayüzü tasarlamak için hangi iki kütüphane örnek olarak gösterilmiştir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje PDF'i içerisinde ek bir örnek proje bulunuyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje Teslim Formu ne zaman paylaşılacaktır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje ile ilgili soru sormadan önce yapılması gereken en önemli rica nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje dokümanları ve kaynakları için genel olarak hangi bölüm işaret edilmiştir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje Teslim Formu hangi eğitim yayınından sonra duyurulacaktır?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Projede no-code veya agent gibi araçların kullanılmasına izin veriliyor mu?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje teslim tarihine yaklaşırken hangi formun paylaşılması beklenmektedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Soru yöneltmeden önce izlenmesi gereken kaynaklardan biri nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Soru yöneltmeden önce incelenmesi gereken dokümanlardan biri nedir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Proje için bir web arayüzü tasarlamak istersem, Python temelli hangi kütüphaneleri düşünebilirim?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Kod örneği reposunda hangi tür ödevler kontrol edilmelidir?",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Frontend dili kullanma zorunluluğu olmadan web arayüzü tasarlamak için hangi kütüphaneler önerilmektedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje teslim formunun paylaşılması hangi iki koşula bağlıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje PDF'i ve yayında gösterilen kod örneği reposu hangi iki ana kaynak üzerinden paylaşılmıştır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Projede Python zorunlu olmasına rağmen, web arayüzü geliştirmek için ek bir frontend dili öğrenme ihtiyacı var mıdır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje geliştirirken veri seti kullanımında herhangi bir kısıtlama bulunmamasının ifade ediliş şekli nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje PDF'inde yer alan örnek proje, ne tür bir referans noktası sağlamaktadır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Soru sormadan önce yayını izleme ve PDF'i inceleme ricasının temel amacı nedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Yayında gösterilen GitHub reposunda, proje ile ilgili hangi ek materyalin kontrol edilmesi önerilmektedir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje teslim formu, ikinci eğitim yayınından sonra ve hangi süreçte paylaşılacaktır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje ile ilgili ek kaynakları bulmak için hangi genel kategoriye başvurulması tavsiye edilmiştir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje geliştirirken Streamlit ve Gradio kütüphaneleri hangi amaca hizmet etmek üzere örnek olarak verilmiştir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje teslimi için Proje Teslim Formu'nun paylaşılmasına dair duyuru ne zaman yapılacaktır?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje ile ilgili yardım almak için ilk olarak hangi adımlar izlenmelidir?",
+        "difficulty": "intermediate"
+      },
+      {
+        "question": "Proje PDF'i ve kod örneği reposunun paylaşımının ilk duyurusu hangi hitap şekliyle yapılmıştır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Proje teslim formu, ikinci eğitim yayınından sonra ve proje teslim tarihine yakın bir zamanda paylaşılacak olması, bu sürecin yönetim şekli hakkında hangi bilgiye işaret eder?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Python temelli kütüphanelerle web arayüzü tasarlama imkanı sunulması ve frontend dili kullanma zorunluluğunun olmaması, projenin arayüz geliştirme esnekliğini hangi boyutta etkiler?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "*.py ve *.ipynb formatlarında proje hazırlama seçeneği, geliştiricilere dosya yönetimi ve kodun sunumu açısından ne gibi alternatifler sunar?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Chatbot projesi olarak belirlenen genel çerçeve, veri seti sınırının olmamasıyla birleştiğinde, katılımcılara proje ölçeği ve karmaşıklığı konusunda nasıl bir özgürlük tanır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Projede no-code veya agent gibi araçların kullanılmaması kısıtlaması, katılımcılardan beklenen temel geliştirme yaklaşımı hakkında hangi çıkarımı yapmamızı sağlar?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Yayında gösterilen GitHub reposundaki 'Opsiyonel ödevler' kısmının kontrol edilmesi tavsiyesi, ana proje beklentileri veya ek öğrenim fırsatları hakkında hangi ipucunu taşır?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Proje ile ilgili soruların yanıtlanması için öncelikli olarak yayın ve proje PDF'inin incelenmesi ricası, destek sürecinin hangi aşamada devreye gireceğini belirtir?",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Proje PDF'inde ek bir örnek projenin bulunması, katılımcılar için referans noktasının içeriği veya kapsamı hakkında ne gibi bir ek bilgi sunar?",
+        "difficulty": "advanced"
+      }
+    ],
+    "answer": "Selamlar @everyone\n\nProje PDF'ini ve yayında kendi gösterdiğim kod örneğinin reposunu paylaşıyorum.\n\nChatbot olması kaydıyla, veri seti sınırımız yok. Frontend dili kullanmak zorunda değilsiniz, Python temelli kütüphanelerle de web arayüzü tasarlayabilirsiniz: Streamlit ve Gradio kütüphaneleri güzel iki örnek.\n\nPython dili zorunlu. İsterseniz *.py, isterseniz *.ipynb olarak hazırlayabilirsiniz. No-code, agent vb. kullanmıyoruz. Proje PDF'inde örnek bir proje daha var.\n\nİkinci eğitim yayınından sonra, proje teslim tarihi yaklaşırken Proje Teslim Formu paylaşacağız.\n\nYayında gösterdiğim repo: https://github.com/gokerguner/gaih-genai-bootcamp (Opsiyonel ödevler kısmını kontrol edin)\n\nProje PDF'i:https://akbankgenerativeaigirisbootcamp.zulipchat.com/user_uploads/70582/RrDnc3ZCm0liXYu-pyn_xbGG/GAIH-GenAI-Bootcamp-Proje-Dosyas.pdf\nEn önemli ricamız, soru yöneltmeden önce lütfen yayını izleyin ve proje pdf'ini inceleyin. Eğer sorularınızın cevabı buralarda değilse yanıtlamaktan memnun oluruz,linkler : \n\nhttps://github.com/gokerguner/gaih-genai-bootcamp\nhttps://streamlit.io\nhttps://www.gradio.app\nProje ile ilgili diğer kaynaklar da burda: #06. Yararlı Kaynaklar > Proje Dokümanları ve Kaynakları",
+    "keywords": [
+      "Proje Dokümanları",
+      "GenAI Bootcamp",
+      "Python Projesi",
+      "Streamlit Gradio",
+      "GitHub Repo",
+      "Chatbot Projesi",
+      "Proje Teslim Formu",
+      "proje",
+      "dokümanları",
+      "genai",
+      "bootcamp",
+      "python",
+      "projesi",
+      "streamlit",
+      "gradio",
+      "github",
+      "repo",
+      "chatbot",
+      "teslim",
+      "formu"
+    ],
+    "difficulty_level": "beginner"
+  }
+]
