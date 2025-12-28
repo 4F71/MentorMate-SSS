@@ -1,0 +1,101 @@
+:question: **Bootcamp İş ve Staj İmkanı Sunuyor mu?**
+
+:answer: Evet, bootcamp'i başarıyla tamamlayan katılımcılar sponsor şirketin yetenek havuzuna dahil edilecektir.
+
+:question: **Bootcamp Sertifikası Alacak mıyım?**
+
+:answer: Evet, bootcamp sonunda projenizi başarıyla tamamladığınız takdirde sertifika verilecektir.
+
+:question:  **Canlı Yayınlarda Yoklama Alınıyor mu?**
+
+:answer: Evet, katılım belgesi alabilmek için canlı yayınların en az %50'sine katılmanız gerekiyor. Canlı yayın sırasında katılım formu paylaşılır ve sadece o an formu dolduranların katılımı doğrulanır.
+
+:question: **Canlı Yayınlar Kaydediliyor mu?**
+
+:answer: Evet, tüm canlı yayınlar kaydedilmekte ve **YouTube** kanalımıza yüklenmektedir. Kaçırmamak için **https://www.youtube.com/@TurkishAIHub** kanalımıza abone olabilir ve bildirimleri açabilirsiniz. :check:
+
+:question: **Projeyi Grup Olarak mı Yapmalıyız?**
+
+:answer: Projeleri tek başınıza ya da en fazla 2 kişilik gruplar halinde gerçekleştirebilirsiniz. Grup zorunluluğu yoktur.
+
+:question: **Mentor Toplantılarının Günleri Belli mi?**
+
+:answer: Mentor toplantıları ve saatleri, Zulip'teki duyurular kanalında ve bootcamp takvimi kanalında paylaşılmaktadır. Katılım zorunlu değildir ama tavsiye edilir.
+
+:question: **Sertifikam Yüklenmedi/Sertifikada İsmim Yanlış, Ne Yapmalıyım?**
+
+:answer: Eğer sertifikanızda bir sorun varsa veya hala yüklenmediyse, **Teknik Sorular** kanalından destek alabilir ve yeni bir talep oluşturabilirsiniz.
+
+:question: **Git Kullanmayı Bilmiyorum, Kodumu GitHub'a Nasıl Yüklerim?** 
+
+:answer:  Web arayüzü ile yükleme: https://www.youtube.com/watch?v=gJb1XebzNeo videoyu izleyerek kolayca yapabilirsiniz.
+
+:question: Youtube Canlı Yayınlar Yoklama Sorunları Hakkında
+
+:answer: Herkese merhaba,
+
+YouTube Canlı Yayınlarında %50 katılım sağlanması için webinar chatinde paylaşılan form aracılığıyla yoklama alınmaktadır. Lütfen formu doldurarak katılımınızı doğrulamayı unutmayın.
+
+Teşekkürler!
+
+:question: Sertifika'da İsim-Harf Problemi
+
+:answer: Merhaba,
+
+Bazı kullanıcılarımız sertifikalarında isimlerinin baş harfinin "?" olarak göründüğünü belirtti. Bu sorunu çözmek için aşağıdaki adımları takip edebilirsiniz:
+Önerilen Çözüm:
+
+İsim Değişikliği: Sertifika platformu üzerinde isminizi İngilizce karakterlerle yeniden kaydedin. Bu, hatalı karakterlerin düzelmesine yardımcı olabilir.
+Tekrar Kontrol: İsim değişikliği yaptıktan sonra sertifikalarınızı tekrar kontrol edin.
+Anlayışınız ve sabrınız için teşekkür ederiz.
+
+:question: Şifreniz İle Giriş Yapamıyorum
+
+:answer: Eğer giriş yapmayı denediğinizde şifrenizle ilgili sorun yaşıyorsanız "Şifremi Unuttum" seçenği ile yeni şifre talep edip, yeni şifrenizle giriş yapabilirsiniz.
+
+:question: Sistem, Mailinizi Kabul Etmiyor
+
+:answer: Giriş yapmayı denediğinizde şifrenizle ilgili sorun yaşıyorsanız "Şifremi Unuttum" seçeneği ile yeni şifre talep edip, yeni şifrenizle giriş yapabilirsiniz.
+
+Ancak, yeni şifre talebinizde mail adresinizi de kabul etmiyorsa; gizli sekme, farklı tarayıcılar, tarayıcının cache'ini silip denemek ya da mobil cihazlarınızdan denemek gibi yöntemler izleyebilirsiniz.
+
+Eş zamanlı olarak da, buradaki formu doldurabilirsiniz: #05. Teknik Sorular > Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında @ 
+
+:question: Courses.ai Platformunda Yaşanan Teknik Sorunlar Hakkında
+
+:answer: Herkese merhaba, @everyone
+
+Courses.10million.ai platformunda karşılaşabileceğiniz "sertifika alamama", "ilerleme kaydedilememe", "sayfa yüklenmeme" veya "görsellerin görünmemesi" gibi teknik sorunlarla ilgili olarak taleplerinizi daha hızlı bir şekilde teknik ekibimize iletebilmemiz adına bir form oluşturduk. Teknik bir problemle karşılaşan katılımcılarımızın aşağıdaki formu doldurmalarını rica ediyoruz.
+Form Linki: (https://forms.gle/vwgAbR4pusb7DHWG7)
+
+Şimdiden sabrınız ve iş birliğiniz için teşekkür ederiz! :blush:
+
+:question:  Proje Dokümanları ve Kaynaklarını nereden bulabilirim? 
+
+:answer:Selamlar @everyone
+
+Proje PDF'ini ve yayında kendi gösterdiğim kod örneğinin reposunu paylaşıyorum.
+
+Chatbot olması kaydıyla, veri seti sınırımız yok. Frontend dili kullanmak zorunda değilsiniz, Python temelli kütüphanelerle de web arayüzü tasarlayabilirsiniz: Streamlit ve Gradio kütüphaneleri güzel iki örnek.
+
+Python dili zorunlu. İsterseniz *.py, isterseniz *.ipynb olarak hazırlayabilirsiniz. No-code, agent vb. kullanmıyoruz. Proje PDF'inde örnek bir proje daha var.
+
+İkinci eğitim yayınından sonra, proje teslim tarihi yaklaşırken Proje Teslim Formu paylaşacağız.
+
+Yayında gösterdiğim repo: https://github.com/gokerguner/gaih-genai-bootcamp (Opsiyonel ödevler kısmını kontrol edin)
+
+Proje PDF'i:https://akbankgenerativeaigirisbootcamp.zulipchat.com/user_uploads/70582/RrDnc3ZCm0liXYu-pyn_xbGG/GAIH-GenAI-Bootcamp-Proje-Dosyas.pdf
+En önemli ricamız, soru yöneltmeden önce lütfen yayını izleyin ve proje pdf'ini inceleyin. Eğer sorularınızın cevabı buralarda değilse yanıtlamaktan memnun oluruz,linkler : 
+
+https://github.com/gokerguner/gaih-genai-bootcamp
+https://streamlit.io
+https://www.gradio.app
+Proje ile ilgili diğer kaynaklar da burda: #06. Yararlı Kaynaklar > Proje Dokümanları ve Kaynakları
+
+:question:
+
+:answer:
+
+:question:
+
+:answer:
